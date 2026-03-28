@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --accent: #0BB8D4;
+    --accent2: #0891B2;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    @apply bg-white dark:bg-[#0C0C14] text-[#1A1A2E] dark:text-[#E8E8F5];
+    transition: background-color 0.4s, color 0.4s;
+    overflow-x: hidden;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { @apply bg-gray-100 dark:bg-[#13131E]; }
+  ::-webkit-scrollbar-thumb { @apply bg-gray-300 dark:bg-[#2a2a3a] rounded-full; }
+}
+
+@layer components {
+  /* Gradient glow background */
+  .bg-glow {
+    background:
+      radial-gradient(ellipse 60% 45% at 78% 12%, rgba(11,184,212,0.12), transparent),
+      radial-gradient(ellipse 35% 25% at 12% 85%, rgba(11,184,212,0.05), transparent);
+  }
+
+  /* Card base */
+  .card {
+    @apply bg-white dark:bg-[#16161F] border border-gray-200 dark:border-white/[0.07] rounded-2xl;
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+  }
+  .card:hover {
+    @apply border-[#0BB8D4];
+  }
+
+  /* Section tag */
+  .sec-tag {
+    @apply inline-block text-xs font-semibold tracking-widest uppercase text-[#0BB8D4]
+           bg-[rgba(11,184,212,0.10)] px-3 py-1 rounded-full mb-2;
+  }
+
+  /* Buttons */
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-[#0BB8D4] text-white
+           font-semibold text-sm rounded-lg cursor-pointer border-none
+           hover:bg-[#0891B2] hover:-translate-y-0.5
+           transition-all duration-200;
+    box-shadow: 0 4px 18px rgba(11,184,212,0.3);
+  }
+  .btn-primary:hover {
+    box-shadow: 0 8px 24px rgba(11,184,212,0.4);
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3 bg-transparent text-[#1A1A2E] dark:text-[#E8E8F5]
+           border border-gray-200 dark:border-white/[0.07] font-medium text-sm rounded-lg cursor-pointer
+           hover:border-[#0BB8D4] hover:text-[#0BB8D4] hover:-translate-y-0.5
+           transition-all duration-200;
+  }
+
+  /* Tag pill */
+  .tag-pill {
+    @apply text-xs font-semibold bg-[rgba(11,184,212,0.10)] text-[#0891B2] dark:text-[#67E8F9]
+           px-2.5 py-0.5 rounded-full border border-[rgba(11,184,212,0.2)];
+  }
+
+  /* Accent line */
+  .sec-line {
+    @apply w-12 h-0.5 rounded-full mb-7;
+    background: linear-gradient(90deg, #0BB8D4, transparent);
+  }
+
+  /* Reveal animation classes (dipakai JS) */
+  .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+  }
+  .reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .reveal-left {
+    opacity: 0;
+    transform: translateX(-22px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+  }
+  .reveal-left.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .reveal-right {
+    opacity: 0;
+    transform: translateX(22px);
+    transition: opacity 0.65s ease, transform 0.65s ease;
+  }
+  .reveal-right.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

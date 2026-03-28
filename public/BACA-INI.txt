@@ -1,0 +1,11 @@
+Folder ini untuk menyimpan file statis yang bisa diakses publik.
+
+CARA PENGGUNAAN:
+- public/images/photo.jpg   → Foto profil kamu
+- public/images/dosen.jpg   → Foto dosen pengampu
+- public/files/cv.pdf       → File CV kamu
+- public/files/tugas-*.pptx → Lampiran tugas PPT
+
+Semua file di folder ini bisa diakses langsung lewat URL:
+https://websitemu.vercel.app/images/photo.jpg
+https://websitemu.vercel.app/files/cv.pdf
