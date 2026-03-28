@@ -7,7 +7,7 @@ import Footer from '../components/Footer'
 import { profileData } from '../lib/data'
 
 export const metadata = {
-  title: `${profileData.name}Portfolio Website`,
+  title: `${profileData.name} Portfolio Website`,
   description: `Portfolio mahasiswa ${profileData.name}, ${profileData.major} ${profileData.university}`,
 }
 
