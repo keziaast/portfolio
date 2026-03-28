@@ -112,7 +112,7 @@ export default function About() {
                                  bg-[rgba(11,184,212,.10)] text-[#0891B2] dark:text-[#67E8F9]
                                  px-2.5 py-0.5 rounded-full border border-[rgba(11,184,212,.2)]">
                   <span className="w-1.5 h-1.5 rounded-full bg-[#0BB8D4]" />
-                  Dosen Aktif · 2025
+                  Dosen Aktif · 2026
                 </span>
               </div>
             </div>
