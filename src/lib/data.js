@@ -85,7 +85,7 @@ export const projects = [
     imageUrl: "",
     imageFallback: "🌐",
     type: "web",
-    demoUrl: "",
+    demoUrl: "https://kezia-asitha.vercel.app",
     githubUrl: "https://github.com/keziaast/portfolio",
     pptEmbedUrl: "",
     pptDownloadUrl: "",
