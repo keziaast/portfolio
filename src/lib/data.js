@@ -82,7 +82,7 @@ export const projects = [
     tags: ["Next.js", "Tailwind CSS", "React"],
 
     // Ganti dengan screenshot project kamu — taruh di public/images/proj-portfolio.png
-    imageUrl: "/images/proj-portfolio.png",
+    imageUrl: "",
     imageFallback: "🌐",
     type: "web",
     demoUrl: "",
