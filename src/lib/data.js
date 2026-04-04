@@ -157,9 +157,9 @@ export const blogConfig = {
 
 // ── KONTAK ───────────────────────────────────────────────────
 export const contactInfo = [
-  { label: "WhatsApp", url: "https://wa.me/62895418530505", icon: "whatsapp" },
-  { label: "Email",  url: "mailto:keziaasitha06@gmail.com",        icon: "email"    },
   { label: "Telegram", url: "https://t.me/n0tkeyyyy",    icon: "telegram" },
+  { label: "Email",  url: "mailto:keziaasitha06@gmail.com",        icon: "email"    },
+  { label: "Spotify",  url: "https://open.spotify.com/user/31ivjirjf4e6epkvv2fqn4juz4qm",         icon: "spotify"  },
   { label: "LinkedIn", url: "https://linkedin.com/in/kezia-asitha", icon: "linkedin" },
 ]
 
