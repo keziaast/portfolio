@@ -125,6 +125,31 @@ export default function Contact() {
           )
         })}
       </div>
+
+      {/* Peta Kampus */}
+<div className="mt-12 reveal">
+  <p className="text-xs font-semibold text-gray-500 dark:text-[#7878A0] mb-3 uppercase tracking-wider">
+    📍 Lokasi Kampus
+  </p>
+  <div className="card overflow-hidden">
+    <div className="bg-gray-50 dark:bg-[#13131E] px-5 py-3 border-b border-gray-200
+                    dark:border-white/[0.07] flex items-center gap-2">
+      <span className="text-[#0BB8D4] text-sm font-semibold">
+        Universitas Sains dan Teknologi Indonesia  {/* ← ganti nama kampus */}
+      </span>
+    </div>
+    <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6962550445382!2d101.3983311!3d0.44818600000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5a91147214257%3A0x38bf6247b6b4b787!2sUSTI%20Pekanbaru!5e0!3m2!1sid!2sid!4v1776157614317!5m2!1sid!2sid"  
+      width="100%"
+      height="380"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Lokasi Kampus"
+    ></iframe>
+  </div>
+</div>
     </section>
   )
 }
