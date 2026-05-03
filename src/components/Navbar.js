@@ -154,8 +154,6 @@ export default function Navbar() {
   </svg>
 </a>
 
-        {/* Garis bawah */}
-        <div className="w-[1px] h-10 bg-gray-300 dark:bg-white/10 rounded-full mt-1" />
       </div>
 
       {/* ── FIXED RIGHT DOT NAV ── */}

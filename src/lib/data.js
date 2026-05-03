@@ -28,7 +28,6 @@ export const socialLinks = [
   { platform: "Twitter",  url: "https://twitter.com/kezaassss",     icon: "twitter"   },
   { platform: "LinkedIn",  url: "https://linkedin.com/in/kezia-asitha", icon: "linkedin"  },
   { platform: "GitHub",  url: "https://github.com/keziaast",      icon: "github"    },
-  { platform: "Kampus USTI", url: "https://usti.ac.id/keziaasithalubis.aff", icon: "kampus"    },
 ]
 
 // ── SKILL ─────────────────────────────────────────────────────
