@@ -20,6 +20,8 @@ const SocialIcon = ({ platform }) => {
   const p = platform.toLowerCase()
   const cls = "w-[17px] h-[17px]"
 
+  console.log("platform:", platform, "| p:", p)
+
   if (p === 'instagram') return (
     <svg viewBox="0 0 24 24" className={cls} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
       <rect x="2" y="2" width="20" height="20" rx="5"/>
@@ -71,6 +73,8 @@ const SocialIcon = ({ platform }) => {
       <path d="M6 12v5c3 3 9 3 12 0v-5"/>
     </svg>
   )
+
+  
 
   return <span className="text-xs font-bold">{platform.charAt(0).toUpperCase()}</span>
 }
@@ -126,6 +130,30 @@ export default function Navbar() {
             <SocialIcon platform={social.platform} />
           </a>
         ))}
+        
+        {/* ✅ Garis pemisah */}
+<div className="w-[1px] h-6 bg-gray-300 dark:bg-white/10 rounded-full" />
+
+{/* ✅ Icon kampus hardcode langsung — tidak lewat SocialIcon */}
+<a href="https://usti.ac.id/keziaasithalubis.aff"
+   target="_blank"
+   rel="noopener noreferrer"
+   title="Afiliasi Kampus USTI"
+   className="w-10 h-10 rounded-full flex items-center justify-center
+              bg-white dark:bg-[#1E1E2E]
+              shadow-md dark:shadow-none
+              border border-gray-100 dark:border-white/[0.07]
+              text-[#0BB8D4]
+              hover:bg-[#0BB8D4] hover:text-white hover:border-[#0BB8D4]
+              hover:scale-110
+              transition-all duration-200">
+  <svg viewBox="0 0 24 24" className="w-[17px] h-[17px]" fill="none"
+    stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+    <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+  </svg>
+</a>
+
         {/* Garis bawah */}
         <div className="w-[1px] h-10 bg-gray-300 dark:bg-white/10 rounded-full mt-1" />
       </div>
