@@ -12,7 +12,7 @@ export const profileData = {
   bio: "Halo! Saya mahasiswa semester 6 yang passionate di bidang pengembangan web dan teknologi digital. Saya senang belajar hal baru dan mengerjakan proyek yang memberikan dampak nyata bagi banyak orang.",
 
   dosen: {
-    name: "Dwi Haryono, S.Kom, M.Kom.",
+    name: "H. Dwi Haryono, S.Kom, M.Kom.",
     mataKuliah: "Teknopreneurship",
     photo: "/images/foto-dosen.jpeg",
   },
@@ -28,6 +28,7 @@ export const socialLinks = [
   { platform: "Twitter",  url: "https://twitter.com/kezaassss",     icon: "twitter"   },
   { platform: "LinkedIn",  url: "https://linkedin.com/in/kezia-asitha", icon: "linkedin"  },
   { platform: "GitHub",  url: "https://github.com/keziaast",      icon: "github"    },
+  { platform: "Kampus USTI", url: "https://usti.ac.id/keziaasithalubis.aff", icon: "kampus"    },
 ]
 
 // ── SKILL ─────────────────────────────────────────────────────
