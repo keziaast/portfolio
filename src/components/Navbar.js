@@ -262,6 +262,21 @@ export default function Navbar() {
                   <SocialIcon platform={social.platform} />
                 </a>
               ))}
+              <a href="https://usti.ac.id/keziaasithalubis.aff"
+     target="_blank"
+     rel="noopener noreferrer"
+     title="Afiliasi Kampus USTI"
+     className="w-9 h-9 rounded-full flex items-center justify-center
+                bg-white dark:bg-[#1E1E2E] shadow-sm
+                border border-gray-200 dark:border-white/[0.07]
+                text-[#0BB8D4] hover:bg-[#0BB8D4] hover:text-white
+                transition-all duration-200">
+    <svg viewBox="0 0 24 24" className="w-[16px] h-[16px]" fill="none"
+      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+      <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+    </svg>
+  </a>
             </div>
           </div>
         )}
