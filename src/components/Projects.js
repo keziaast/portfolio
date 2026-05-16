@@ -3,6 +3,8 @@
 
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
+import Link from 'next/link'          
+import { useRouter } from 'next/navigation'  
 import { projects } from '../lib/data'
 
 function getAutoImage(project) {
@@ -21,6 +23,7 @@ function getAutoImage(project) {
 
 const typeBadge = {
   
+  artikel: { label: 'Artikel',    style: 'bg-teal-100 dark:bg-teal-900/30 text-teal-700 dark:text-teal-300' },
   web:    { label: 'Web App',    style: 'bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300' },
   ppt:    { label: 'Presentasi', style: 'bg-amber-100 dark:bg-amber-900/30 text-amber-700 dark:text-amber-300' },
   system: { label: 'Sistem',     style: 'bg-purple-100 dark:bg-purple-900/30 text-purple-700 dark:text-purple-300' },
@@ -31,6 +34,7 @@ export default function Projects() {
   const [selected, setSelected] = useState(null)
   const [showPpt,  setShowPpt]  = useState(false)
   const [imgErrors, setImgErrors] = useState({})
+  const router = useRouter()
 
   const featured = projects.filter(p => p.featured)
 
@@ -45,12 +49,14 @@ export default function Projects() {
     return () => { document.body.style.overflow = '' }
   }, [selected])
 
-  function openModal(project) { setSelected(project); setShowPpt(false) }
-  function closeModal()       { setSelected(null);    setShowPpt(false) }
-
-  function handleImgError(id) {
-    setImgErrors(prev => ({ ...prev, [id]: true }))
+  function openModal(project) {
+  if (project.type === 'artikel' && project.tugasSlug) {
+    router.push(`/tugas/${project.tugasSlug}`)  // redirect ke halaman artikel
+    return
   }
+  setSelected(project)
+  setShowPpt(false)
+}
 
   return (
     <>
@@ -116,40 +122,50 @@ const hasImg  = autoImg && !imgErrors[project.id]
                     {project.description}
                   </p>
 
-                  {/* ✅ Tombol selalu di bawah (mt-auto) → sejajar antar card */}
-                  <div className="flex flex-wrap gap-2 mt-auto pt-1"
-                       onClick={e => e.stopPropagation()}>
-                    <button onClick={() => openModal(project)}
-                      className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-[#0BB8D4] text-white
-                                 hover:bg-[#0891B2] transition-colors flex-shrink-0">
-                      Details
-                    </button>
-                    {project.demoUrl && (
-                      <a href={project.demoUrl} target="_blank" rel="noopener noreferrer"
-                         className="text-xs font-semibold px-3 py-1.5 rounded-lg border
-                                    border-gray-200 dark:border-white/[0.07] text-gray-500
-                                    hover:border-[#0BB8D4] hover:text-[#0BB8D4] transition-colors flex-shrink-0">
-                        Preview
-                      </a>
-                    )}
-                    {project.pptEmbedUrl && (
-                      <span className="text-xs font-semibold px-3 py-1.5 rounded-lg border
-                                       border-amber-300 dark:border-amber-700
-                                       text-amber-600 dark:text-amber-400 cursor-pointer
-                                       hover:bg-amber-50 dark:hover:bg-amber-900/20
-                                       transition-colors flex-shrink-0">
-                        📑 Lihat PPT
-                      </span>
-                    )}
-                    {project.githubUrl && (
-                      <a href={project.githubUrl} target="_blank" rel="noopener noreferrer"
-                         className="text-xs font-semibold px-3 py-1.5 rounded-lg border
-                                    border-gray-200 dark:border-white/[0.07] text-gray-500
-                                    hover:border-[#0BB8D4] hover:text-[#0BB8D4] transition-colors flex-shrink-0">
-                        GitHub
-                      </a>
-                    )}
-                  </div>
+<div className="flex flex-wrap gap-2 mt-auto pt-1"
+     onClick={e => e.stopPropagation()}>
+
+  {/* ✅ Kalau artikel → tombol "Baca Artikel" pakai Link */}
+  {project.type === 'artikel' && project.tugasSlug ? (
+    <Link href={`/tugas/${project.tugasSlug}`}
+      className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-[#0BB8D4] text-white
+                 hover:bg-[#0891B2] transition-colors flex-shrink-0">
+      Baca Artikel →
+    </Link>
+  ) : (
+    <button onClick={() => openModal(project)}
+      className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-[#0BB8D4] text-white
+                 hover:bg-[#0891B2] transition-colors flex-shrink-0">
+      Details
+    </button>
+  )}
+
+  {project.demoUrl && (
+    <a href={project.demoUrl} target="_blank" rel="noopener noreferrer"
+       className="text-xs font-semibold px-3 py-1.5 rounded-lg border
+                  border-gray-200 dark:border-white/[0.07] text-gray-500
+                  hover:border-[#0BB8D4] hover:text-[#0BB8D4] transition-colors flex-shrink-0">
+      Preview
+    </a>
+  )}
+  {project.pptEmbedUrl && (
+    <span className="text-xs font-semibold px-3 py-1.5 rounded-lg border
+                     border-amber-300 dark:border-amber-700
+                     text-amber-600 dark:text-amber-400 cursor-pointer
+                     hover:bg-amber-50 dark:hover:bg-amber-900/20
+                     transition-colors flex-shrink-0">
+      📑 Lihat PPT
+    </span>
+  )}
+  {project.githubUrl && (
+    <a href={project.githubUrl} target="_blank" rel="noopener noreferrer"
+       className="text-xs font-semibold px-3 py-1.5 rounded-lg border
+                  border-gray-200 dark:border-white/[0.07] text-gray-500
+                  hover:border-[#0BB8D4] hover:text-[#0BB8D4] transition-colors flex-shrink-0">
+      GitHub
+    </a>
+  )}
+</div>
                 </div>
               </div>
             )
