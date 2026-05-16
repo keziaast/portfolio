@@ -1,12 +1,12 @@
 'use client'
 
-import { tugasList } from '@/lib/data'
+import { tugasList } from '../../../lib/data'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { use } from 'react'
 
 export default function TugasDetail({ params }) {
-  const { slug } = use(params)
+  const slug = params.slug
   const tugas = tugasList.find(t => t.slug === slug)
   if (!tugas) notFound()
 
