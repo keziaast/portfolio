@@ -105,13 +105,13 @@ export const tugasList = [
     slug: "tugas-startup",
     judul: "Tugas Start Up: Knowledge, Skill, Attitude & Contoh Bisnis",
     mataKuliah: "Technopreneurship",
-    tanggal: "2024",
+    tanggal: "2026",
     tags: ["Technopreneurship", "Start Up", "Entrepreneurship"],
     deskripsi: "Tugas individu membahas pentingnya knowledge, skill, dan attitude bagi seorang entrepreneur, serta contoh bisnis start up Canva dan cara kerjanya.",
     thumbnail: "/images/tugas/startup-cover.jpg",
     fileLampiran: [
       {
-        nama: "Presentasi Start Up.pdf",
+        nama: "Start Up Kezia.pdf",
         ukuran: "2.4 MB",
         tipe: "pdf",
         url: "/files/tugas/TUGAS_START_UP_Kezia_.pdf"
@@ -187,7 +187,7 @@ export const tugasList = [
     slug: "tugas-kelompok-teknopreneur",
     judul: "Tugas Kelompok: Presentasi Technopreneurship",
     mataKuliah: "Technopreneurship",
-    tanggal: "2024",
+    tanggal: "2026",
     tags: ["Technopreneurship", "Kelompok", "Presentasi"],
     deskripsi: "Tugas kelompok mata kuliah Technopreneurship membahas konsep kewirausahaan berbasis teknologi.",
     thumbnail: "/images/tugas/kelompok-cover.jpg",
