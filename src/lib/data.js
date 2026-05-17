@@ -129,6 +129,7 @@ export const tugasList = [
         url: "/files/tugas/TUGAS_START_UP_Kezia_.pdf"
       }
     ],
+    pptEmbedUrl: "https://drive.google.com/file/d/1r3jMr1OO8qFFhU1frtLKoK22pzYcWWvR/preview",
     konten: [
       {
         tipe: "paragraf",
