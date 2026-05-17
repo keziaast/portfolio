@@ -215,7 +215,7 @@ export const tugasList = [
       "/images/tugas/kelompok-poster.png",
       "/images/tugas/kelompok-foto1.jpeg"
     ],
-    pptEmbedUrl: "https://drive.google.com/file/d/1UG8Yq8tTBpQ_TSoE7Xl4vEUeRvddpYUf/view?usp=sharing/preview",
+    pptEmbedUrl: "https://drive.google.com/file/d/1UG8Yq8tTBpQ_TSoE7Xl4vEUeRvddpYUf/preview",
     konten: [
       { tipe: "paragraf", isi: "Tugas kelompok ini merupakan presentasi bersama teman-teman kelompok 5 untuk mata kuliah Technopreneurship. Kami membahas konsep kewirausahaan berbasis teknologi dan bagaimana mahasiswa bisa mulai berpikir seperti seorang technopreneur — seseorang yang menggabungkan kemampuan teknologi dengan jiwa wirausaha." },
       { tipe: "heading", isi: "Apa itu Technopreneurship?" },
@@ -257,7 +257,7 @@ export const tugasList = [
       }
     ],
     foto: [],
-    pptEmbedUrl: "https://drive.google.com/file/d/1MtduwasFwHrBNyFZsUpPBb7sZDkGJ5sK/view?usp=sharing/preview",
+    pptEmbedUrl: "https://drive.google.com/file/d/1MtduwasFwHrBNyFZsUpPBb7sZDkGJ5sK/preview",
     konten: [
       { tipe: "paragraf", isi: "Pada tugas mata kuliah Technopreneurship ini, saya diminta untuk membahas tentang manajemen risiko — mulai dari pengertiannya, tahap-tahapnya, cara pengelolaannya, sampai mengapa hal ini penting untuk dipelajari, terutama bagi mahasiswa Sistem Informasi yang nantinya akan terjun ke dunia teknologi dan bisnis." },
       { tipe: "heading", isi: "1. Apa yang Dimaksud dengan Risiko dan Manajemen Risiko?" },
