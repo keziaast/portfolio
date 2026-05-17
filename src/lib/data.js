@@ -97,6 +97,18 @@ export const projects = [
     tugasSlug: "tugas-kelompok-teknopreneur",
     featured: true,
   },
+  {
+    id: "tugas-manajemen-risiko",
+    title: "Tugas Manajemen Risiko",
+    description: "Tugas individu Technopreneurship membahas pengertian, tahap-tahap, dan cara pengelolaan risiko bagi mahasiswa dan calon technopreneur.",
+    tags: ["Technopreneurship", "Manajemen Risiko", "Presentasi"],
+    imageUrl: "/images/tugas/risiko-cover.jpg",
+    imageFallback: "⚠️",
+    type: "artikel",
+    tugasSlug: "tugas-manajemen-risiko",
+    featured: true,
+  }
+  
 ]
 
 // ── TUGAS ──────────────────────────────────────────
@@ -189,7 +201,7 @@ export const tugasList = [
     mataKuliah: "Technopreneurship",
     tanggal: "2026",
     tags: ["Technopreneurship", "Kelompok", "Presentasi"],
-    deskripsi: "Tugas kelompok mata kuliah Technopreneurship membahas konsep kewirausahaan berbasis teknologi.",
+    deskripsi: "Tugas kelompok 5 mata kuliah Technopreneurship membahas konsep kewirausahaan berbasis teknologi, pentingnya inovasi, dan bagaimana mahasiswa bisa mulai berpikir dan bergerak seperti seorang technopreneur.",
     thumbnail: "/images/tugas/kelompok-cover.jpg",
     fileLampiran: [
       {
@@ -199,12 +211,91 @@ export const tugasList = [
         url: "/files/tugas/TECHNOPRENEURSHIP_KEL_5.pdf"
       }
     ],
-    foto: [],
+    foto: [
+      "/images/tugas/kelompok-poster.png",
+      "/images/tugas/kelompok-foto1.jpeg"
+    ],
+    pptEmbedUrl: "https://drive.google.com/file/d/1UG8Yq8tTBpQ_TSoE7Xl4vEUeRvddpYUf/view?usp=sharing/preview",
     konten: [
+      { tipe: "paragraf", isi: "Tugas kelompok ini merupakan presentasi bersama teman-teman kelompok 5 untuk mata kuliah Technopreneurship. Kami membahas konsep kewirausahaan berbasis teknologi dan bagaimana mahasiswa bisa mulai berpikir seperti seorang technopreneur — seseorang yang menggabungkan kemampuan teknologi dengan jiwa wirausaha." },
+      { tipe: "heading", isi: "Apa itu Technopreneurship?" },
+      { tipe: "paragraf", isi: "Technopreneurship adalah gabungan dari dua kata: technology dan entrepreneurship. Sederhananya, ini adalah kewirausahaan yang berbasis teknologi. Seorang technopreneur tidak hanya punya ide bisnis, tapi juga memanfaatkan teknologi sebagai alat utama untuk menjalankan dan mengembangkan bisnisnya." },
+      { tipe: "paragraf", isi: "Contoh nyata technopreneur yang sukses adalah pendiri Gojek, Tokopedia, dan Canva — mereka semua memulai dari masalah sehari-hari yang kemudian diselesaikan dengan solusi berbasis teknologi. Yang menarik, banyak dari mereka yang memulainya dari bangku kuliah, sama seperti kita sekarang." },
+      { tipe: "heading", isi: "Kenapa Mahasiswa Perlu Punya Jiwa Technopreneur?" },
+      { tipe: "paragraf", isi: "Dunia kerja saat ini sudah berubah sangat cepat. Tidak cukup hanya punya ijazah — mahasiswa juga perlu punya kemampuan untuk menciptakan sesuatu yang bernilai. Dengan jiwa technopreneur, kita tidak hanya menunggu lowongan kerja, tapi bisa menciptakan lapangan kerja sendiri." },
       {
-        tipe: "paragraf",
-        isi: "Tugas kelompok ini merupakan presentasi bersama teman-teman kelompok 5 untuk mata kuliah Technopreneurship. Kami membahas konsep kewirausahaan berbasis teknologi dan bagaimana mahasiswa bisa mulai berpikir seperti seorang technopreneur."
+        tipe: "poin",
+        judul: "Beberapa alasan pentingnya jiwa technopreneur bagi mahasiswa:",
+        items: [
+          "Teknologi terus berkembang — mahasiswa IT punya keunggulan karena sudah familiar dengan tools dan pemrograman yang dibutuhkan dunia bisnis.",
+          "Modal bisa dimulai dari kecil — banyak startup sukses yang dimulai hanya dengan laptop dan koneksi internet.",
+          "Peluang pasar digital masih sangat besar — banyak masalah di sekitar kita yang belum punya solusi teknologi yang baik.",
+          "Pengalaman nyata lebih berharga — membuat project atau bisnis kecil saat kuliah memberikan pengalaman yang tidak bisa didapat dari teori saja."
+        ]
+      },
+      { tipe: "heading", isi: "Inovasi sebagai Kunci Utama" },
+      { tipe: "paragraf", isi: "Dalam presentasi kelompok kami, salah satu poin yang paling ditekankan adalah pentingnya inovasi. Inovasi bukan berarti harus menciptakan sesuatu yang benar-benar baru dari nol — tapi bisa juga dengan memperbaiki atau meningkatkan sesuatu yang sudah ada menjadi lebih efisien, lebih murah, atau lebih mudah digunakan." },
+      { tipe: "paragraf", isi: "Contohnya Gojek — ojek sudah ada sejak lama, tapi dengan inovasi teknologi berupa aplikasi pemesanan online, Gojek berhasil mengubahnya menjadi bisnis yang bernilai miliaran dolar. Inilah yang disebut disruptive innovation — inovasi yang mengubah cara lama menjadi jauh lebih baik." },
+      { tipe: "heading", isi: "Kesimpulan" },
+      { tipe: "paragraf", isi: "Dari tugas kelompok ini, saya pribadi jadi lebih sadar bahwa peluang untuk menjadi technopreneur itu sangat terbuka lebar, terutama bagi mahasiswa IT. Modal utamanya bukan uang, tapi ide, skill teknologi, dan keberanian untuk mencoba. Mulai dari hal kecil, konsisten belajar, dan jangan takut gagal — karena dari kegagalan itulah kita bisa tumbuh dan berkembang." }
+    ]
+  },
+  {
+    slug: "tugas-manajemen-risiko",
+    judul: "Tugas Manajemen Risiko dalam Technopreneurship",
+    mataKuliah: "Technopreneurship",
+    tanggal: "2026",
+    tags: ["Technopreneurship", "Manajemen Risiko", "Presentasi"],
+    deskripsi: "Tugas individu mata kuliah Technopreneurship membahas pengertian risiko, tahap-tahap manajemen risiko, cara pengelolaan risiko, dan pentingnya mempelajari manajemen risiko bagi mahasiswa dan calon technopreneur.",
+    thumbnail: "/images/tugas/risiko-cover.jpg",
+    fileLampiran: [
+      {
+        nama: "Presentasi Manajemen Risiko.pdf",
+        ukuran: "1.8 MB",
+        tipe: "pdf",
+        url: "/files/tugas/Tugas_Teknopreneur_Kezia.pdf"
       }
+    ],
+    foto: [],
+    pptEmbedUrl: "https://drive.google.com/file/d/1MtduwasFwHrBNyFZsUpPBb7sZDkGJ5sK/view?usp=sharing/preview",
+    konten: [
+      { tipe: "paragraf", isi: "Pada tugas mata kuliah Technopreneurship ini, saya diminta untuk membahas tentang manajemen risiko — mulai dari pengertiannya, tahap-tahapnya, cara pengelolaannya, sampai mengapa hal ini penting untuk dipelajari, terutama bagi mahasiswa Sistem Informasi yang nantinya akan terjun ke dunia teknologi dan bisnis." },
+      { tipe: "heading", isi: "1. Apa yang Dimaksud dengan Risiko dan Manajemen Risiko?" },
+      { tipe: "paragraf", isi: "Menurut saya, risiko itu adalah kemungkinan terjadinya hal yang tidak diinginkan dan bisa membuat hasil akhirnya tidak sesuai harapan. Contoh nyata yang pernah saya alami adalah saat mengerjakan proyek kuliah, tiba-tiba laptop error atau file hilang begitu saja. Itu adalah bentuk risiko yang nyata dalam kehidupan sehari-hari sebagai mahasiswa." },
+      { tipe: "paragraf", isi: "Sedangkan manajemen risiko adalah cara kita mengelola kemungkinan tersebut supaya dampaknya bisa dikurangi. Misalnya dengan backup data secara rutin atau menyiapkan rencana cadangan sebelum masalah benar-benar terjadi. Intinya, kita tidak bisa menghilangkan risiko sepenuhnya, tapi kita bisa mempersiapkan diri menghadapinya." },
+      { tipe: "heading", isi: "2. Tahap-Tahap dalam Manajemen Risiko" },
+      { tipe: "paragraf", isi: "Manajemen risiko bukan sesuatu yang dilakukan secara asal-asalan. Ada tahapan yang perlu diikuti agar pengelolaan risikonya efektif dan terstruktur." },
+      {
+        tipe: "poin",
+        judul: "Berikut tahap-tahapnya:",
+        items: [
+          "Identifikasi Risiko — Tahap pertama adalah mencari tahu masalah apa saja yang mungkin terjadi. Contohnya saat membuat aplikasi, risikonya bisa berupa error coding atau server down yang tidak terduga.",
+          "Analisis Risiko — Setelah diidentifikasi, kita menilai seberapa besar kemungkinan risiko itu terjadi dan seberapa besar dampaknya. Misalnya error coding memang sering terjadi, tapi masih bisa diperbaiki jika kita tahu caranya.",
+          "Pengelolaan Risiko — Tahap menentukan solusi untuk mengurangi risiko tersebut, seperti menyiapkan waktu testing tambahan atau selalu melakukan backup data sebelum mengerjakan sesuatu.",
+          "Implementasi — Tahap menjalankan solusi yang sudah direncanakan. Misalnya benar-benar melakukan testing menyeluruh sebelum aplikasi digunakan oleh pengguna nyata.",
+          "Monitoring — Tahap terakhir adalah memantau kondisi secara berkala untuk memastikan semuanya tetap aman dan terkendali, bahkan setelah solusi diterapkan."
+        ]
+      },
+      { tipe: "heading", isi: "3. Cara-Cara Pengelolaan Risiko" },
+      { tipe: "paragraf", isi: "Selain tahapan, ada juga beberapa cara yang bisa dipakai untuk mengelola risiko tergantung situasinya. Tidak semua risiko harus dihindari — ada yang memang perlu diterima dan dihadapi." },
+      {
+        tipe: "poin",
+        judul: "Lima cara pengelolaan risiko:",
+        items: [
+          "Risk Avoidance (Menghindari Risiko) — Artinya kita menghindari aktivitas yang terlalu berisiko. Contohnya tidak memakai fitur yang belum kita pahami dalam proyek supaya tidak menimbulkan masalah yang tidak perlu.",
+          "Risk Reduction (Mengurangi Risiko) — Mengurangi kemungkinan atau dampak risiko. Misalnya menyimpan file di Google Drive dan flashdisk sekaligus agar data lebih aman dari kemungkinan hilang.",
+          "Risk Transfer (Memindahkan Risiko) — Memindahkan sebagian risiko ke pihak lain. Contohnya menggunakan layanan cloud hosting agar keamanan server dibantu oleh penyedia layanan yang lebih berpengalaman.",
+          "Risk Deferral (Menunda Risiko) — Berarti menunda hal yang berisiko sampai kondisi lebih aman dan siap. Misalnya menunda fitur tambahan dan fokus ke fitur utama terlebih dahulu agar lebih stabil.",
+          "Risk Retention (Menerima Risiko) — Artinya kita menerima risiko yang memang tidak bisa dihindari, tetapi tetap menyiapkan antisipasi agar dampaknya tidak terlalu besar."
+        ]
+      },
+      { tipe: "heading", isi: "4. Mengapa Penting Mempelajari Manajemen Risiko?" },
+      { tipe: "paragraf", isi: "Sebagai mahasiswa Sistem Informasi, menurut saya mempelajari manajemen risiko itu sangat penting. Kita sering punya ide yang bagus, tetapi tanpa tahu cara mengelola risikonya, ide tersebut bisa gagal di tengah jalan karena masalah yang sebenarnya bisa diantisipasi sejak awal." },
+      { tipe: "paragraf", isi: "Saya sendiri pernah mengalami tugas terganggu karena laptop rusak dan tidak ada cadangan data. Dari situ saya jadi lebih terbiasa melakukan backup file secara rutin dan menyiapkan rencana alternatif sebelum masalah terjadi. Pengalaman kecil seperti itu ternyata mengajarkan banyak hal tentang pentingnya antisipasi." },
+      { tipe: "paragraf", isi: "Sebagai pribadi, pemahaman tentang manajemen risiko juga membuat saya lebih berhati-hati dalam kehidupan sehari-hari. Misalnya menyimpan file di lebih dari satu tempat, menggunakan antivirus, dan tidak sembarangan mengklik tautan yang mencurigakan. Dengan memahami manajemen risiko, saya jadi lebih tenang dalam mengambil keputusan karena sudah punya langkah antisipasi." },
+      { tipe: "heading", isi: "Kesimpulan" },
+      { tipe: "paragraf", isi: "Menurut saya, manajemen risiko itu penting karena membantu kita lebih siap menghadapi masalah dan mengurangi kemungkinan kerugian. Dengan memahami risiko, tahap pengelolaannya, dan cara mengatasinya, kita jadi bisa mengambil keputusan dengan lebih tenang dan terarah." },
+      { tipe: "paragraf", isi: "Bagi mahasiswa Sistem Informasi maupun calon technopreneur, kemampuan mengelola risiko sangat dibutuhkan agar proyek atau ide yang dijalankan bisa berjalan lebih aman dan terencana. Seperti kata pepatah — kesuksesan lahir dari keberanian menghadapi risiko." }
     ]
   }
 ]

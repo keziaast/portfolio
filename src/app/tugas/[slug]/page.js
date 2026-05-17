@@ -96,20 +96,44 @@ export default function TugasDetail({ params }) {
         </article>
 
         {/* Foto dokumentasi */}
-        {tugas.foto && tugas.foto.length > 0 && (
-          <div className="mb-10">
-            <h3 className="text-xs font-semibold text-gray-400 uppercase
-                           tracking-wider mb-4">
-              Dokumentasi
-            </h3>
-            <div className="grid grid-cols-2 gap-3">
-              {tugas.foto.map((src, i) => (
-                <img key={i} src={src} alt={`Foto ${i + 1}`}
-                  className="rounded-xl w-full object-cover aspect-video" />
-              ))}
-            </div>
-          </div>
-        )}
+        {/* PPT Embed — bisa dilihat langsung online */}
+{tugas.pptEmbedUrl && (
+  <div className="mb-10">
+    <h3 className="text-xs font-semibold text-gray-400 uppercase
+                   tracking-wider mb-4">
+      Lihat Presentasi Online
+    </h3>
+    <div className="rounded-2xl overflow-hidden border border-gray-200
+                    dark:border-white/[0.07]">
+      <iframe
+        src={tugas.pptEmbedUrl}
+        className="w-full"
+        style={{ height: '420px', border: 'none' }}
+        allow="autoplay"
+        title={tugas.judul}
+      />
+    </div>
+  </div>
+)}
+
+{/* Foto dokumentasi/poster */}
+{tugas.foto && tugas.foto.length > 0 && (
+  <div className="mb-10">
+    <h3 className="text-xs font-semibold text-gray-400 uppercase
+                   tracking-wider mb-4">
+      Dokumentasi & Poster
+    </h3>
+    <div className="grid grid-cols-2 gap-3">
+      {tugas.foto.map((src, i) => (
+        <a key={i} href={src} target="_blank" rel="noopener noreferrer">
+          <img src={src} alt={`Foto ${i + 1}`}
+            className="rounded-xl w-full object-cover aspect-video
+                       hover:opacity-90 transition-opacity cursor-pointer" />
+        </a>
+      ))}
+    </div>
+  </div>
+)}
 
         {/* File lampiran */}
         {tugas.fileLampiran && tugas.fileLampiran.length > 0 && (
