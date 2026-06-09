@@ -67,6 +67,11 @@ export const awards = [
     issuer: "Bisa.AI Academy",       // ← Ganti
     period: "Mei - 2024",                  // ← Ganti
   },
+  {
+    title: "Academic Achievement Nominee",   // ← Ganti
+    issuer: "USTI Excellent Award",       // ← Ganti
+    period: "Mei - 2026",                  // ← Ganti
+  },
   // Tambah award? Salin blok di atas
   // Kalau tidak ada award, kosongkan array ini: awards = []
 ]
