@@ -24,7 +24,7 @@ export const profileData = {
 // ── MEDIA SOSIAL ─────────────────────────────────────────────
 export const socialLinks = [
   { platform: "Instagram", url: "https://instagram.com/keziaaaaa.st",   icon: "instagram" },
-  { platform: "TikTok",  url: "https://tiktok.com/keytastic.dev",     icon: "tiktok"    },
+  { platform: "TikTok",  url: "https://tiktok.com/@keytastic.dev",     icon: "tiktok"    },
   { platform: "Twitter",  url: "https://twitter.com/kezaassss",     icon: "twitter"   },
   { platform: "LinkedIn",  url: "https://linkedin.com/in/kezia-asitha", icon: "linkedin"  },
   { platform: "GitHub",  url: "https://github.com/keziaast",      icon: "github"    },
