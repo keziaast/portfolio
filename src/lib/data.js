@@ -400,7 +400,13 @@ export const tugasList = [
     deskripsi: "Kumpulan hasil desain poster dan spanduk sebagai tugas mata kuliah, dibuat menggunakan Canva dengan tema yang beragam.",
     thumbnail: "/images/tugas/poster-cover.jpg",
     fileLampiran: [],
-    foto: [],
+    foto: [
+      "/images/tugas/poster-bengkel1.png",
+      "/images/tugas/poster-bengkel2.png",
+      "/images/tugas/poster-bengkel2.png",
+      "/images/tugas/spanduk1.jpeg",
+      "/images/tugas/spanduk2.jpeg",
+    ],
     pptEmbedUrl: "",
     konten: [
       { tipe: "paragraf", isi: "Selain tugas berupa presentasi dan analisis usaha, saya juga mendapatkan tugas untuk membuat desain poster dan spanduk sebagai bagian dari mata kuliah Technopreneurship. Tugas ini melatih kemampuan visual communication yang merupakan salah satu skill penting bagi seorang technopreneur dalam memasarkan produk atau jasanya." },
