@@ -25,10 +25,8 @@ export const profileData = {
 export const socialLinks = [
   { platform: "Instagram", url: "https://instagram.com/keziaaaaa.st",   icon: "instagram" },
   { platform: "TikTok",  url: "https://tiktok.com/@keytastic.dev",     icon: "tiktok"    },
-  { platform: "LinkedIn",  url: "https://linkedin.com/in/kezia-asitha", icon: "linkedin"  },
   { platform: "Facebook",  url: "https://facebook.com/fathanarianto25@gmail.com", icon: "facebook"  },
   { platform: "YouTube", url: "https://youtube.com/@vinoarianto9706", icon: "youtube"},
-  { platform: "GitHub",  url: "https://github.com/keziaast",      icon: "github"    },
 ]
 
 // ── SKILL ─────────────────────────────────────────────────────
