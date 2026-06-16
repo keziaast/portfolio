@@ -420,12 +420,6 @@ export const tugasList = [
   }
 ]
 
-// ── BLOG ─────────────────────────────────────────────────────
-export const blogConfig = {
-  rssUrl: "https://keziaasitha.blogspot.com/feeds/posts/default?alt=rss",
-  blogUrl: "https://keziaasitha.blogspot.com",
-}
-
 // ── KONTAK ───────────────────────────────────────────────────
 export const contactInfo = [
   { label: "Email",  url: "mailto:keziaasitha06@gmail.com",        icon: "email"    },
