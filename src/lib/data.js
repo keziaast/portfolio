@@ -25,7 +25,7 @@ export const profileData = {
 export const socialLinks = [
   { platform: "Instagram", url: "https://instagram.com/keziaaaaa.st",   icon: "instagram" },
   { platform: "TikTok",  url: "https://tiktok.com/@keytastic.dev",     icon: "tiktok"    },
-  { platform: "Facebook",  url: "https://facebook.com/fathanarianto25@gmail.com", icon: "facebook"  },
+  { platform: "Facebook",  url: "https://facebook.com/vino.arianto.31", icon: "facebook"  },
   { platform: "YouTube", url: "https://youtube.com/@vinoarianto9706", icon: "youtube"},
 ]
 
@@ -428,7 +428,6 @@ export const blogConfig = {
 
 // ── KONTAK ───────────────────────────────────────────────────
 export const contactInfo = [
-  { label: "Telegram", url: "https://t.me/n0tkeyyyy",    icon: "telegram" },
   { label: "Email",  url: "mailto:keziaasitha06@gmail.com",        icon: "email"    },
   { label: "Spotify",  url: "https://open.spotify.com/user/31ivjirjf4e6epkvv2fqn4juz4qm",         icon: "spotify"  },
   { label: "LinkedIn", url: "https://linkedin.com/in/kezia-asitha", icon: "linkedin" },
