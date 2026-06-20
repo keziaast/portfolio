@@ -25,8 +25,8 @@ export const profileData = {
 export const socialLinks = [
   { platform: "Instagram", url: "https://instagram.com/keziaaaaa.st",   icon: "instagram" },
   { platform: "TikTok",  url: "https://tiktok.com/@keytastic.dev",     icon: "tiktok"    },
-  { platform: "Facebook",  url: "https://facebook.com/keziaaaaa.st", icon: "facebook"  },
-  { platform: "YouTube", url: "https://youtube.com/@keziaast", icon: "youtube"},
+  { platform: "Facebook",  url: "https://www.facebook.com/keziaaaaa.st",   icon: "facebook"  },
+  { platform: "YouTube",   url: "https://www.youtube.com/@keziaast",   icon: "youtube"   },
 ]
 
 // ── SKILL ─────────────────────────────────────────────────────
