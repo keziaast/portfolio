@@ -27,6 +27,8 @@ export const socialLinks = [
   { platform: "TikTok",  url: "https://tiktok.com/@keytastic.dev",     icon: "tiktok"    },
   { platform: "Facebook",  url: "https://www.facebook.com/keziaaaaa.st",   icon: "facebook"  },
   { platform: "YouTube",   url: "https://www.youtube.com/@keziaast",   icon: "youtube"   },
+  { platform: "LinkedIn",  url: "https://www.linkedin.com/in/kezia-asitha", icon: "linkedin"  },
+  { platform: "GitHub",    url: "https://www.github.com/keziaast",          icon: "github"    },
 ]
 
 // ── SKILL ─────────────────────────────────────────────────────
