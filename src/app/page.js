@@ -20,6 +20,7 @@ export default async function Home() {
       <Skills />
       <EducationAwards />
       <Projects />
+      <Blog />
       <CV />
       <Contact />
     </>
