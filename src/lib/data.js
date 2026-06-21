@@ -156,7 +156,7 @@ export const tugasList = [
     mataKuliah: "Teknopreneur",
     tanggal: "2026",
     tags: ["Desain", "Poster", "Spanduk", "Canva"],
-    deskripsi: "Kumpulan hasil desain poster dan spanduk sebagai tugas mata kuliah, dibuat menggunakan Canva dengan tema yang beragam.",
+    deskripsi: "Kumpulan hasil desain poster dan spanduk sebagai tugas mata kuliah Teknopreneur, dibuat menggunakan Canva.",
     thumbnail: "/images/tugas/poster-cover.jpg",
     fileLampiran: [],
     foto: [
@@ -171,10 +171,8 @@ export const tugasList = [
       { tipe: "paragraf", isi: "Selain tugas berupa presentasi dan analisis usaha, saya juga mendapatkan tugas untuk membuat desain poster dan spanduk sebagai bagian dari mata kuliah Teknopreneur. Tugas ini melatih kemampuan visual communication yang merupakan salah satu skill penting bagi seorang technopreneur dalam memasarkan produk atau jasanya." },
       { tipe: "heading", isi: "Tools yang Digunakan" },
       { tipe: "paragraf", isi: "Semua desain dibuat menggunakan Canva, platform desain online yang sudah saya bahas juga di tugas Start Up sebelumnya. Canva sangat membantu karena menyediakan banyak template siap pakai yang bisa disesuaikan dengan kebutuhan, sehingga proses desain menjadi lebih cepat dan hasilnya tetap terlihat profesional." },
-      { tipe: "heading", isi: "Proses Pembuatan" },
-      { tipe: "paragraf", isi: "Dalam membuat poster dan spanduk, ada beberapa hal yang perlu diperhatikan yaitu pemilihan warna yang sesuai dengan tema, tipografi yang mudah dibaca, komposisi elemen yang seimbang, dan pesan utama yang jelas dan langsung dipahami oleh pembaca. Semua hal ini saya pelajari secara otodidak melalui eksplorasi fitur Canva dan referensi desain yang ada di internet." },
       { tipe: "heading", isi: "Hasil Desain" },
-      { tipe: "paragraf", isi: "Kumpulan hasil desain poster dan spanduk dapat dilihat pada galeri dokumentasi di bawah. Setiap karya mencerminkan pemahaman saya tentang prinsip desain visual yang efektif dan komunikatif." }
+      { tipe: "paragraf", isi: "Kumpulan hasil desain poster dan spanduk dapat dilihat pada galeri dokumentasi di bawah." }
     ]
   },
 
@@ -184,7 +182,7 @@ export const tugasList = [
     mataKuliah: "Teknopreneur",
     tanggal: "2026",
     tags: ["Teknopreneur", "Observasi", "Wawancara"],
-    deskripsi: "Tugas individu melakukan observasi dan wawancara ke Bengkel Pramudinata Family untuk memahami transformasi usaha konvensional menuju usaha berbasis teknologi.",
+    deskripsi: "Tugas observasi dan wawancara di Bengkel Pramudinata Family untuk mempelajari bagaimana usaha konvensional mulai memanfaatkan teknologi dalam menjalankan bisnisnya.",
     thumbnail: "/images/tugas/observasi-cover.jpeg",
     fileLampiran: [],
     foto: [
@@ -194,24 +192,24 @@ export const tugasList = [
     ],
     pptEmbedUrl: "",
     konten: [
-      { tipe: "paragraf", isi: "Pada tugas mata kuliah Teknopreneur ini, kelompok kami melakukan observasi langsung ke Bengkel Pramudinata Family yang berlokasi di Jl. Purwodadi Ujung. Bengkel ini sudah berjalan sekitar 2 tahun 4 bulan dan dikelola langsung oleh pemiliknya, Bapak Eka." },
+      { tipe: "paragraf", isi: "Pada mata kuliah Teknopreneur, kelompok kami melakukan observasi dan wawancara langsung di Bengkel Pramudinata Family yang berlokasi di Jl. Cemara, Purwodadi Ujung. Kegiatan ini bertujuan untuk memahami bagaimana sebuah usaha bengkel berkembang serta mulai memanfaatkan teknologi dalam mendukung operasional dan pelayanannya."},
       { tipe: "heading", isi: "Profil Usaha" },
       {
         tipe: "poin",
-        judul: "Informasi umum Bengkel Pramudinata Family:",
+        judul: "Informasi singkat mengenai Bengkel Pramudinata Family:",
         items: [
-          "Jenis usaha: bengkel service motor",
-          "Jam operasional: setiap hari, pukul 08.00–22.00",
-          "Layanan utama: service, ganti oli, tune up",
-          "Pemilik: Bapak Eka (Keluarga Pramudinata)"
+          "Jenis usaha: Bengkel servis motor",
+          "Jam operasional: Setiap hari, pukul 08.00–22.00",
+          "Layanan utama: Servis, ganti oli, tune up",
+          "Pemilik: Bapak Eka (Keluarga Pramudinatha)"
         ]
       },
-      { tipe: "heading", isi: "Latar Belakang Pemilihan Usaha" },
-      { tipe: "paragraf", isi: "Bengkel ini menarik untuk diobservasi karena tergolong usaha konvensional, tapi pemiliknya sudah mulai memanfaatkan teknologi seperti media sosial untuk promosi dan QRIS untuk pembayaran. Tujuan observasi ini adalah memahami bagaimana usaha konvensional bisa bertransformasi secara bertahap menjadi usaha yang lebih berbasis teknologi." },
+      { tipe: "heading", isi: "Latar Belakang Observasi" },
+      { tipe: "paragraf", isi: "Bengkel Pramudinata Family dipilih sebagai objek observasi karena merupakan usaha yang awalnya dijalankan secara konvensional, namun telah mulai mengadopsi teknologi seperti media sosial untuk promosi dan QRIS sebagai metode pembayaran. Dari kegiatan ini, kami ingin mengetahui bagaimana teknologi dapat membantu perkembangan usaha skala kecil secara bertahap."},      
       { tipe: "heading", isi: "Tahapan Kegiatan Sebelum Kunjungan" },
       {
         tipe: "poin",
-        judul: "Langkah-langkah yang dilakukan sebelum wawancara:",
+        judul: "Beberapa persiapan yang dilakukan sebelum kunjungan:",
         items: [
           "Menentukan objek observasi bersama anggota kelompok",
           "Survei awal lokasi untuk memahami kondisi fisik bengkel",
@@ -269,260 +267,417 @@ export const tugasList = [
     ]
   },
 
-  {
-    slug: "tugas-kelompok-teknopreneur",
-    judul: "Studi Kasus Teknopreneur: Bengkel Pramudinata Family",
-    mataKuliah: "Teknopreneur",
-    tanggal: "2026",
-    tags: ["Teknopreneur", "Kelompok", "Presentasi"],
-    deskripsi: "Presentasi kelompok 5 membahas konsep kewirausahaan berbasis teknologi.",
-    thumbnail: "/images/tugas/kelompok-cover.jpg",
-    fileLampiran: [
-      {
-        nama: "Presentasi Kelompok 5.pdf",
-        ukuran: "3.1 MB",
-        tipe: "pdf",
-        url: "/files/tugas/Teknopreneur_KEL_5.pdf"
-      }
-    ],
-    foto: [
-      "/images/tugas/kelompok-poster.png",
-      "/images/tugas/kelompok-foto1.jpeg"
-    ],
-    pptEmbedUrl: "/files/tugas/Teknopreneur_KEL_5.pdf",
-    konten: [
-      { tipe: "paragraf", isi: "Tugas kelompok ini merupakan presentasi bersama teman-teman kelompok 5 untuk mata kuliah Teknopreneur. Kami membahas konsep kewirausahaan berbasis teknologi dan bagaimana mahasiswa bisa mulai berpikir seperti seorang technopreneur — seseorang yang menggabungkan kemampuan teknologi dengan jiwa wirausaha." },
-      { tipe: "heading", isi: "Apa itu Teknopreneur?" },
-      { tipe: "paragraf", isi: "Teknopreneur adalah gabungan dari dua kata: technology dan entrepreneurship. Sederhananya, ini adalah kewirausahaan yang berbasis teknologi. Seorang technopreneur tidak hanya punya ide bisnis, tapi juga memanfaatkan teknologi sebagai alat utama untuk menjalankan dan mengembangkan bisnisnya." },
-      { tipe: "paragraf", isi: "Contoh nyata technopreneur yang sukses adalah pendiri Gojek, Tokopedia, dan Canva. Mereka semua memulai dari masalah sehari-hari yang kemudian diselesaikan dengan solusi berbasis teknologi. Yang menarik, banyak dari mereka yang memulainya dari bangku kuliah, sama seperti kita sekarang." },
-      { tipe: "heading", isi: "Kenapa Mahasiswa Perlu Punya Jiwa Technopreneur?" },
-      { tipe: "paragraf", isi: "Dunia kerja saat ini sudah berubah sangat cepat. Tidak cukup hanya punya ijazah, mahasiswa juga perlu punya kemampuan untuk menciptakan sesuatu yang bernilai. Dengan jiwa technopreneur, kita tidak hanya menunggu lowongan kerja, tapi bisa menciptakan lapangan kerja sendiri." },
-      {
-        tipe: "poin",
-        judul: "Beberapa alasan pentingnya jiwa technopreneur bagi mahasiswa:",
-        items: [
-          "Teknologi terus berkembang dan mahasiswa IT punya keunggulan karena sudah familiar dengan tools dan pemrograman yang dibutuhkan dunia bisnis.",
-          "Modal bisa dimulai dari kecil karena banyak startup sukses yang dimulai hanya dengan laptop dan koneksi internet.",
-          "Peluang pasar digital masih sangat besar dan banyak masalah di sekitar kita yang belum punya solusi teknologi yang baik.",
-          "Pengalaman nyata lebih berharga karena membuat project atau bisnis kecil saat kuliah memberikan pengalaman yang tidak bisa didapat dari teori saja."
-        ]
-      },
-      { tipe: "heading", isi: "Inovasi sebagai Kunci Utama" },
-      { tipe: "paragraf", isi: "Dalam presentasi kelompok kami, salah satu poin yang paling ditekankan adalah pentingnya inovasi. Inovasi bukan berarti harus menciptakan sesuatu yang benar-benar baru dari nol, tapi bisa juga dengan memperbaiki atau meningkatkan sesuatu yang sudah ada menjadi lebih efisien, lebih murah, atau lebih mudah digunakan." },
-      { tipe: "heading", isi: "Kesimpulan" },
-      { tipe: "paragraf", isi: "Dari tugas kelompok ini, saya pribadi jadi lebih sadar bahwa peluang untuk menjadi technopreneur itu sangat terbuka lebar, terutama bagi mahasiswa IT. Modal utamanya bukan uang, tapi ide, skill teknologi, dan keberanian untuk mencoba. Mulai dari hal kecil, konsisten belajar, dan jangan takut gagal karena dari kegagalan itulah kita bisa tumbuh dan berkembang." }
-    ]
-  },
+{
+  slug: "tugas-kelompok-teknopreneur",
+  judul: "Studi Kasus Teknopreneur: Bengkel Pramudinata Family",
+  mataKuliah: "Teknopreneur",
+  tanggal: "2026",
+  tags: ["Teknopreneur", "Kelompok", "Presentasi"],
+  deskripsi: "Presentasi kelompok mengenai konsep teknopreneur serta penerapannya melalui studi kasus Bengkel Pramudinata Family.",
+  thumbnail: "/images/tugas/kelompok-cover.jpg",
+  fileLampiran: [
+    {
+      nama: "Presentasi Kelompok 5.pdf",
+      ukuran: "3.1 MB",
+      tipe: "pdf",
+      url: "/files/tugas/Teknopreneur_KEL_5.pdf"
+    }
+  ],
+  foto: [
+    "/images/tugas/kelompok-poster.png",
+    "/images/tugas/kelompok-foto1.jpeg"
+  ],
+  pptEmbedUrl: "/files/tugas/Teknopreneur_KEL_5.pdf",
+  konten: [
+    {
+      tipe: "paragraf",
+      isi: "Tugas ini merupakan presentasi kelompok pada mata kuliah Teknopreneur yang membahas konsep kewirausahaan berbasis teknologi. Melalui kegiatan ini, kami mempelajari bagaimana teknologi dapat dimanfaatkan untuk menciptakan peluang usaha, meningkatkan nilai bisnis, serta memberikan solusi terhadap berbagai permasalahan di masyarakat."
+    },
 
-  {
-    slug: "tugas-kelompok-3p2p",
-    judul: "Teknopreneur Analisis 3P+2P Bengkel Pramudinatha Family",
-    mataKuliah: "Teknopreneur",
-    tanggal: "2026",
-    tags: ["Teknopreneur", "Kelompok", "Analisis Usaha"],
-    deskripsi: "Tugas kelompok menganalisis usaha Bengkel Pramudinata Family menggunakan framework 3P+2P sebagai pendekatan pemasaran berbasis teknologi.",
-    thumbnail: "/images/tugas/kelompok-3p2p-cover.jpg",
-    fileLampiran: [
-      {
-        nama: "Analisis 3P+2P Bengkel Pramudinata.pdf",
-        ukuran: "2.8 MB",
-        tipe: "pdf",
-        url: "/files/tugas/KEL__TEKNOPRENEUR_3P_2P.pdf"
-      }
-    ],
-    foto: [],
-    pptEmbedUrl: "/files/tugas/KEL__TEKNOPRENEUR_3P_2P.pdf",
-    konten: [
-      { tipe: "paragraf", isi: "Pada tugas kelompok ini, kami melakukan kunjungan langsung ke sebuah usaha kecil dan menganalisisnya menggunakan framework 3P+2P. Usaha yang kami pilih adalah Bengkel Pramudinata Family, sebuah bengkel motor yang berlokasi di Jl. Purwodadi Ujung, milik Bapak Eka. Tim kami terdiri dari Vino Arianto sebagai ketua, Aisyah Balqis, dan saya sendiri Kezia Asitha." },
-      { tipe: "heading", isi: "Apa itu Framework 3P+2P?" },
-      { tipe: "paragraf", isi: "Framework 3P+2P adalah konsep dasar dalam pemasaran yang digunakan untuk menganalisis suatu usaha agar dapat berkembang dengan baik. Dengan pendekatan ini, suatu usaha dapat dianalisis secara lebih terstruktur, sehingga dapat diketahui kondisi saat ini serta peluang pengembangannya, terutama dalam penerapan teknologi." },
-      {
-        tipe: "poin",
-        judul: "Lima aspek utama dalam framework 3P+2P:",
-        items: [
-          "Product: barang atau layanan yang ditawarkan kepada pelanggan.",
-          "Price: nilai atau biaya yang harus dibayar oleh pelanggan.",
-          "Place: lokasi atau cara produk/jasa disediakan kepada pelanggan.",
-          "Promotion: cara usaha memperkenalkan dan menarik pelanggan.",
-          "People: pihak yang terlibat dalam menjalankan usaha."
-        ]
-      },
-      { tipe: "heading", isi: "Profil Usaha: Bengkel Pramudinata Family" },
-      { tipe: "paragraf", isi: "Bengkel Pramudinata Family adalah bengkel motor yang sudah berdiri selama sekitar 2 tahun 4 bulan. Bengkel ini dimiliki dan dikelola oleh Bapak Eka (Bang Eka) dengan dibantu 2 orang karyawan. Bengkel beroperasi setiap hari dari pukul 08.00 pagi hingga 22.00 malam, menjadikannya salah satu bengkel dengan jam operasional yang panjang di kawasan tersebut." },
-      { tipe: "heading", isi: "Analisis Framework 3P" },
-      { tipe: "subheading", isi: "1. Product" },
-      {
-        tipe: "poin",
-        judul: "Layanan yang tersedia di Bengkel Pramudinata Family:",
-        items: [
-          "Layanan cukup lengkap mencakup servis motor, ganti oli, ganti sparepart, tambal ban, ganti kampas rem, dan berbagai layanan lainnya.",
-          "Untuk sparepart, tidak selalu disediakan oleh bengkel. Dalam beberapa kasus, barang dibeli langsung oleh pelanggan sesuai kebutuhan."
-        ]
-      },
-      { tipe: "subheading", isi: "2. Price" },
-      {
-        tipe: "poin",
-        judul: "Informasi harga layanan:",
-        items: [
-          "Harga jasa servis dimulai dari sekitar Rp20.000 ke atas tergantung jenis pekerjaan.",
-          "Untuk layanan yang melibatkan penggantian sparepart, biaya bisa mencapai sekitar Rp500.000.",
-          "Harga bersifat fleksibel dan tergantung pada jenis layanan serta tingkat kerusakan motor.",
-          "Metode pembayaran sudah cukup modern dengan menerima Cash, Transfer (TF), dan QRIS."
-        ]
-      },
-      { tipe: "subheading", isi: "3. Place" },
-      {
-        tipe: "poin",
-        judul: "Kondisi lokasi usaha:",
-        items: [
-          "Bengkel buka setiap hari dari jam 08.00 pagi sampai 22.00 malam.",
-          "Lokasi usaha sudah berjalan cukup stabil selama 2 tahun 4 bulan.",
-          "Belum memiliki cabang dan masih fokus pada satu tempat usaha.",
-          "Lingkungan bengkel tergolong bersih dan tertata dengan baik."
-        ]
-      },
-      { tipe: "heading", isi: "Analisis Framework 2P" },
-      { tipe: "subheading", isi: "4. Promotion" },
-      {
-        tipe: "poin",
-        judul: "Strategi promosi yang sudah dijalankan:",
-        items: [
-          "Promosi sudah memanfaatkan media digital yaitu WhatsApp, Instagram, dan TikTok.",
-          "Media sosial digunakan untuk menarik pelanggan baru dan mengenalkan layanan bengkel kepada masyarakat sekitar.",
-          "Sudah menerapkan sistem booking servis dimana pelanggan bisa meninggalkan motor dan diambil setelah selesai."
-        ]
-      },
-      { tipe: "subheading", isi: "5. People" },
-      {
-        tipe: "poin",
-        judul: "Sumber daya manusia bengkel:",
-        items: [
-          "Bengkel dimiliki oleh Bang Eka sebagai owner sekaligus mekanik utama.",
-          "Jumlah karyawan saat ini ada 2 orang yang membantu operasional sehari-hari.",
-          "Pembagian kerja dilakukan antara owner dan karyawan dalam melayani pelanggan.",
-          "Owner bersedia menerima pengembangan sistem digital dengan catatan tidak terlalu rumit dan mudah digunakan."
-        ]
-      },
-      { tipe: "heading", isi: "Kondisi Saat Ini dan Peluang Digitalisasi" },
-      { tipe: "paragraf", isi: "Dari hasil observasi, ada dua kondisi menarik yang kami temukan. Pertama, sistem pencatatan bengkel masih manual menggunakan nota. Ini sebenarnya merupakan peluang besar untuk digitalisasi, misalnya dengan membuat aplikasi pencatatan sederhana atau memanfaatkan aplikasi kasir digital yang sudah banyak tersedia gratis." },
-      { tipe: "paragraf", isi: "Kedua, bengkel ini sudah mulai bergerak ke arah teknopreneur karena sudah menggunakan media sosial untuk promosi dan menerima pembayaran digital seperti QRIS. Ini menunjukkan bahwa owner terbuka terhadap perkembangan teknologi, yang menjadi modal penting untuk pengembangan bisnis ke depannya." },
-      { tipe: "heading", isi: "Kesimpulan" },
-      { tipe: "paragraf", isi: "Dari hasil wawancara dan observasi langsung ke bengkel, dapat disimpulkan bahwa usaha Bengkel Pramudinata Family tergolong cukup maju dan berkembang. Hal ini terlihat dari banyaknya motor yang antri untuk diservis dan operasional yang sudah berjalan stabil lebih dari dua tahun." },
-      {
-        tipe: "poin",
-        judul: "Poin penting hasil analisis:",
-        items: [
-          "Sudah menggunakan 3 platform media sosial untuk promosi yaitu WhatsApp, Instagram, dan TikTok.",
-          "Menerima 3 metode pembayaran termasuk QRIS yang menunjukkan adaptasi terhadap teknologi.",
-          "Pemilik terbuka terhadap pengembangan sistem digital yang mudah digunakan."
-        ]
-      },
-      { tipe: "paragraf", isi: "Pengalaman kunjungan langsung ke bengkel ini memberikan gambaran nyata bagaimana sebuah usaha kecil bisa mulai memanfaatkan teknologi secara bertahap. Tidak perlu langsung serba digital, yang penting ada kemauan untuk berkembang dan beradaptasi dengan kebutuhan pelanggan." }
-    ]
-  },
+    {
+      tipe: "heading",
+      isi: "Tentang Teknopreneur"
+    },
 
-  {
-    slug: "tugas-startup",
-    judul: "Latihan Start Up: Knowledge, Skill, Attitude dan Contoh Bisnis",
-    mataKuliah: "Teknopreneur",
-    tanggal: "2026",
-    tags: ["Teknopreneur", "Start Up", "Entrepreneurship"],
-    deskripsi: "Tugas individu membahas pentingnya knowledge, skill, dan attitude bagi seorang entrepreneur, serta contoh bisnis start up Canva.",
-    thumbnail: "/images/tugas/startup-cover.jpg",
-    fileLampiran: [
-      {
-        nama: "Presentasi Start Up.pdf",
-        ukuran: "2.4 MB",
-        tipe: "pdf",
-        url: "/files/tugas/TUGAS_START_UP_Kezia_.pdf"
-      }
-    ],
-    foto: [],
-    pptEmbedUrl: "/files/tugas/TUGAS_START_UP_Kezia_.pdf",
-    konten: [
-      { tipe: "paragraf", isi: "Pada tugas mata kuliah Teknopreneur ini, saya diminta untuk menjawab dua pertanyaan utama: pertama, mengapa seorang entrepreneur harus memiliki jiwa knowledge, skill, dan attitude. Kedua, memberikan contoh bisnis start up beserta cara kerjanya." },
-      { tipe: "heading", isi: "1. Mengapa Entrepreneur Harus Punya Knowledge, Skill, dan Attitude?" },
-      { tipe: "subheading", isi: "A. Knowledge (Pengetahuan)" },
-      { tipe: "paragraf", isi: "Menurut saya, knowledge itu penting banget karena tanpa pengetahuan yang cukup kita bisa salah langkah. Saya pernah mengalaminya sendiri saat mengerjakan proyek kuliah karena kurang paham konsep dasarnya, hasilnya tidak maksimal dan harus mengulang dari awal. Dari pengalaman itu saya sadar, seorang entrepreneur harus punya knowledge yang cukup supaya setiap keputusan yang diambil tidak asal-asalan dan punya dasar yang kuat." },
-      { tipe: "subheading", isi: "B. Skill (Kemampuan)" },
-      { tipe: "paragraf", isi: "Pengetahuan saja ternyata tidak cukup kalau tidak bisa dipraktikkan. Sebagai mahasiswa IT, skill seperti coding itu sangat penting karena ide sebagus apapun tidak akan berarti kalau tidak bisa dieksekusi. Skill itulah yang menjadi jembatan antara pengetahuan dan hasil nyata yang bisa dilihat dan dirasakan orang lain." },
-      { tipe: "subheading", isi: "C. Attitude (Sikap)" },
-      { tipe: "paragraf", isi: "Dari ketiga hal ini, attitude menurut saya yang paling susah dibentuk tapi justru paling menentukan. Sikap pantang menyerah itu sangat penting karena kegagalan memang bagian dari proses. Banyak orang yang sebenarnya sudah punya pengetahuan dan kemampuan yang bagus, tetapi berhenti di tengah jalan karena tidak kuat menghadapi tekanan. Karena itu, attitude menjadi fondasi utama agar knowledge dan skill bisa benar-benar bermanfaat." },
-      { tipe: "heading", isi: "2. Contoh Bisnis Start Up: Canva" },
-      { tipe: "paragraf", isi: "Salah satu contoh start up yang paling sering saya gunakan sebagai mahasiswa adalah Canva. Canva adalah platform desain online yang memudahkan siapa saja untuk membuat berbagai jenis desain mulai dari poster, presentasi, CV, sampai konten media sosial tanpa harus punya kemampuan desain yang tinggi." },
-      {
-        tipe: "poin",
-        judul: "Cara kerja Canva:",
-        items: [
-          "Pengguna membuka aplikasi atau website Canva lalu login atau daftar akun.",
-          "Pilih jenis desain yang ingin dibuat misalnya poster, presentasi, atau CV.",
-          "Pilih template yang sudah tersedia agar lebih mudah dan cepat.",
-          "Edit desain sesuai kebutuhan dengan mengganti teks, warna, gambar, atau menambahkan elemen.",
-          "Setelah selesai, desain bisa langsung diunduh atau dibagikan ke orang lain."
-        ]
-      },
-      { tipe: "paragraf", isi: "Dalam konteks bisnis, mahasiswa bisa memanfaatkan Canva untuk membuka jasa desain sederhana misalnya membuat poster, feed Instagram, atau CV. Jadi Canva tidak hanya berguna untuk keperluan pribadi, tapi juga bisa jadi peluang usaha dengan modal yang relatif kecil." },
-      { tipe: "heading", isi: "Kesimpulan" },
-      { tipe: "paragraf", isi: "Menurut saya, start up itu bukan cuma soal punya ide bisnis yang keren, tapi lebih ke kesiapan orang yang menjalankannya. Seorang technopreneur harus punya knowledge, skill, dan attitude yang saling melengkapi. Karena tanpa ketiga hal itu, ide sebagus apapun akan sulit diwujudkan jadi bisnis yang nyata dan bisa bertahan lama." }
-    ]
-  },
+    {
+      tipe: "paragraf",
+      isi: "Teknopreneur merupakan perpaduan antara teknologi dan kewirausahaan. Seorang teknopreneur tidak hanya memiliki ide bisnis, tetapi juga mampu memanfaatkan teknologi sebagai sarana untuk mengembangkan produk, layanan, maupun proses bisnis agar lebih efektif dan inovatif."
+    },
 
-  {
-    slug: "tugas-manajemen-risiko",
-    judul: "Latihan Manajemen Risiko dalam Teknopreneur",
-    mataKuliah: "Teknopreneur",
-    tanggal: "2026",
-    tags: ["Teknopreneur", "Manajemen Risiko", "Presentasi"],
-    deskripsi: "Tugas individu membahas pengertian risiko, tahap-tahap manajemen risiko, cara pengelolaan risiko, dan pentingnya mempelajari manajemen risiko.",
-    thumbnail: "/images/tugas/risiko-cover.jpg",
-    fileLampiran: [
-      {
-        nama: "Presentasi Manajemen Risiko.pdf",
-        ukuran: "1.8 MB",
-        tipe: "pdf",
-        url: "/files/tugas/Tugas_Teknopreneur_Kezia.pdf"
-      }
-    ],
-    foto: [],
-    pptEmbedUrl: "/files/tugas/Tugas_Teknopreneur_Kezia.pdf",
-    konten: [
-      { tipe: "paragraf", isi: "Pada tugas mata kuliah Teknopreneur ini, saya diminta untuk membahas tentang manajemen risiko mulai dari pengertiannya, tahap-tahapnya, cara pengelolaannya, sampai mengapa hal ini penting untuk dipelajari." },
-      { tipe: "heading", isi: "1. Apa yang Dimaksud dengan Risiko dan Manajemen Risiko?" },
-      { tipe: "paragraf", isi: "Menurut saya, risiko itu adalah kemungkinan terjadinya hal yang tidak diinginkan dan bisa membuat hasil akhirnya tidak sesuai harapan. Contoh nyata yang pernah saya alami adalah saat mengerjakan proyek kuliah, tiba-tiba laptop error atau file hilang begitu saja." },
-      { tipe: "paragraf", isi: "Sedangkan manajemen risiko adalah cara kita mengelola kemungkinan tersebut supaya dampaknya bisa dikurangi, misalnya dengan backup data secara rutin atau menyiapkan rencana cadangan sebelum masalah benar-benar terjadi." },
-      { tipe: "heading", isi: "2. Tahap-Tahap dalam Manajemen Risiko" },
-      {
-        tipe: "poin",
-        judul: "Lima tahap manajemen risiko:",
-        items: [
-          "Identifikasi Risiko: mencari tahu masalah apa saja yang mungkin terjadi. Contohnya saat membuat aplikasi, risikonya bisa berupa error coding atau server down.",
-          "Analisis Risiko: menilai seberapa besar kemungkinan risiko terjadi dan dampaknya. Misalnya error coding sering terjadi tapi masih bisa diperbaiki.",
-          "Pengelolaan Risiko: menentukan solusi untuk mengurangi risiko tersebut seperti menyiapkan waktu testing tambahan atau selalu backup data.",
-          "Implementasi: menjalankan solusi yang sudah direncanakan, misalnya benar-benar melakukan testing sebelum aplikasi digunakan.",
-          "Monitoring: memantau kondisi secara berkala untuk memastikan semuanya tetap aman dan terkendali."
-        ]
-      },
-      { tipe: "heading", isi: "3. Cara-Cara Pengelolaan Risiko" },
-      {
-        tipe: "poin",
-        judul: "Lima cara pengelolaan risiko:",
-        items: [
-          "Risk Avoidance (Menghindari Risiko): menghindari aktivitas yang terlalu berisiko, contohnya tidak memakai fitur yang belum dipahami dalam proyek.",
-          "Risk Reduction (Mengurangi Risiko): mengurangi kemungkinan atau dampak risiko, misalnya menyimpan file di Google Drive dan flashdisk sekaligus.",
-          "Risk Transfer (Memindahkan Risiko): memindahkan sebagian risiko ke pihak lain, contohnya menggunakan layanan cloud hosting.",
-          "Risk Deferral (Menunda Risiko): menunda hal yang berisiko sampai kondisi lebih aman, misalnya menunda fitur tambahan dan fokus ke fitur utama.",
-          "Risk Retention (Menerima Risiko): menerima risiko yang tidak bisa dihindari tapi tetap menyiapkan antisipasi agar dampaknya tidak terlalu besar."
-        ]
-      },
-      { tipe: "heading", isi: "4. Mengapa Penting Mempelajari Manajemen Risiko?" },
-      { tipe: "paragraf", isi: "Sebagai mahasiswa Sistem Informasi, mempelajari manajemen risiko itu sangat penting. Kita sering punya ide yang bagus, tetapi tanpa tahu cara mengelola risikonya, ide tersebut bisa gagal di tengah jalan karena masalah yang sebenarnya bisa diantisipasi sejak awal." },
-      { tipe: "paragraf", isi: "Saya sendiri pernah mengalami tugas terganggu karena laptop rusak dan tidak ada cadangan data. Dari situ saya jadi lebih terbiasa melakukan backup file secara rutin dan menyiapkan rencana alternatif sebelum masalah terjadi." },
-      { tipe: "heading", isi: "Kesimpulan" },
-      { tipe: "paragraf", isi: "Manajemen risiko itu penting karena membantu kita lebih siap menghadapi masalah dan mengurangi kemungkinan kerugian. Bagi mahasiswa Sistem Informasi maupun calon technopreneur, kemampuan mengelola risiko sangat dibutuhkan agar proyek atau ide yang dijalankan bisa berjalan lebih aman dan terencana. Seperti kata pepatah, kesuksesan lahir dari keberanian menghadapi risiko." }
-    ]
-  },
+    {
+      tipe: "paragraf",
+      isi: "Dalam presentasi ini, kami juga membahas beberapa contoh perusahaan berbasis teknologi yang berhasil berkembang melalui inovasi dan pemanfaatan teknologi digital. Contoh-contoh tersebut menunjukkan bahwa ide sederhana dapat berkembang menjadi bisnis yang besar apabila mampu menjawab kebutuhan masyarakat."
+    },
 
-  
+    {
+      tipe: "heading",
+      isi: "Mengapa Teknopreneur Penting bagi Mahasiswa?"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Sebagai mahasiswa di bidang teknologi, memahami konsep teknopreneur menjadi bekal yang penting. Selain mempersiapkan diri untuk dunia kerja, kemampuan ini juga membuka peluang untuk membangun usaha sendiri dengan memanfaatkan pengetahuan dan keterampilan yang dimiliki."
+    },
+
+    {
+      tipe: "poin",
+      judul: "Beberapa manfaat yang kami pelajari melalui materi ini:",
+      items: [
+        "Memahami peran teknologi dalam mengembangkan sebuah usaha.",
+        "Melatih kemampuan melihat peluang bisnis dari permasalahan di sekitar.",
+        "Mendorong kreativitas dan inovasi dalam menciptakan solusi yang bermanfaat.",
+        "Membangun pola pikir untuk terus belajar, beradaptasi, dan berani mencoba hal baru."
+      ]
+    },
+
+    {
+      tipe: "heading",
+      isi: "Inovasi sebagai Kunci Pengembangan Usaha"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Salah satu pembahasan utama dalam presentasi ini adalah pentingnya inovasi. Inovasi tidak selalu berarti menciptakan sesuatu yang benar-benar baru, tetapi juga dapat berupa pengembangan dari produk atau layanan yang sudah ada agar menjadi lebih efektif, lebih praktis, dan lebih sesuai dengan kebutuhan pengguna."
+    },
+
+    {
+      tipe: "heading",
+      isi: "Kesimpulan"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Melalui tugas kelompok ini, saya memperoleh pemahaman yang lebih luas mengenai konsep teknopreneur dan pentingnya inovasi dalam dunia bisnis. Pengalaman berdiskusi, menyusun materi, hingga melakukan presentasi juga membantu meningkatkan kemampuan bekerja sama, berkomunikasi, serta menyampaikan informasi secara sistematis."
+    }
+  ]
+},
+
+{
+  slug: "tugas-kelompok-3p2p",
+  judul: "Analisis Usaha Menggunakan Framework 3P+2P",
+  mataKuliah: "Teknopreneur",
+  tanggal: "2026",
+  tags: ["Teknopreneur", "Kelompok", "Analisis Usaha"],
+  deskripsi: "Analisis Bengkel Pramudinata Family menggunakan framework 3P+2P untuk mengevaluasi strategi pemasaran serta peluang pengembangan berbasis teknologi.",
+  thumbnail: "/images/tugas/kelompok-3p2p-cover.jpg",
+  fileLampiran: [
+    {
+      nama: "Analisis 3P+2P Bengkel Pramudinata.pdf",
+      ukuran: "2.8 MB",
+      tipe: "pdf",
+      url: "/files/tugas/KEL__TEKNOPRENEUR_3P_2P.pdf"
+    }
+  ],
+  foto: [],
+  pptEmbedUrl: "/files/tugas/KEL__TEKNOPRENEUR_3P_2P.pdf",
+  konten: [
+    {
+      tipe: "paragraf",
+      isi: "Pada tugas kelompok ini, kami melakukan analisis terhadap Bengkel Pramudinata Family menggunakan framework 3P+2P. Analisis ini bertujuan untuk memahami kondisi usaha dari berbagai aspek sekaligus mengidentifikasi peluang pengembangan, khususnya melalui pemanfaatan teknologi dalam kegiatan operasional maupun pemasaran."
+    },
+
+    {
+      tipe: "heading",
+      isi: "Framework 3P+2P"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Framework 3P+2P merupakan salah satu pendekatan yang digunakan untuk mengevaluasi sebuah usaha secara menyeluruh. Melalui lima aspek utama, kami dapat melihat kelebihan usaha yang sudah dimiliki sekaligus menemukan peluang yang masih dapat dikembangkan."
+    },
+
+    {
+      tipe: "poin",
+      judul: "Aspek yang dianalisis meliputi:",
+      items: [
+        "Product: Produk atau layanan yang ditawarkan kepada pelanggan.",
+        "Price: Penentuan harga yang sesuai dengan nilai layanan.",
+        "Place: Lokasi dan cara usaha menjangkau pelanggan.",
+        "Promotion: Strategi promosi yang digunakan untuk menarik pelanggan.",
+        "People: Sumber daya manusia yang terlibat dalam menjalankan usaha."
+      ]
+    },
+
+    {
+      tipe: "heading",
+      isi: "Hasil Analisis"
+    },
+
+    {
+      tipe: "subheading",
+      isi: "Product"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Bengkel menyediakan berbagai layanan, seperti servis motor, ganti oli, penggantian sparepart, tambal ban, hingga perbaikan komponen lainnya. Ragam layanan yang cukup lengkap menjadi salah satu nilai tambah dalam memenuhi kebutuhan pelanggan."
+    },
+
+    {
+      tipe: "subheading",
+      isi: "Price"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Harga layanan disesuaikan dengan jenis pekerjaan yang dilakukan sehingga tetap fleksibel. Selain pembayaran tunai, bengkel juga telah menyediakan transfer bank dan QRIS sebagai alternatif pembayaran yang lebih praktis."
+    },
+
+    {
+      tipe: "subheading",
+      isi: "Place"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Lokasi bengkel mudah dijangkau dan memiliki jam operasional yang cukup panjang. Meskipun saat ini masih beroperasi di satu lokasi, kondisi bengkel terlihat rapi dan mendukung kenyamanan pelanggan."
+    },
+
+    {
+      tipe: "subheading",
+      isi: "Promotion"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Promosi dilakukan melalui media sosial seperti WhatsApp, Instagram, dan TikTok. Selain itu, bengkel juga mulai menyediakan layanan booking sehingga pelanggan dapat mengatur jadwal servis dengan lebih mudah."
+    },
+
+    {
+      tipe: "subheading",
+      isi: "People"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Operasional bengkel dijalankan langsung oleh pemilik bersama dua orang karyawan. Dari hasil wawancara, pemilik juga menunjukkan sikap terbuka terhadap penerapan teknologi yang dapat membantu operasional selama mudah digunakan."
+    },
+
+    {
+      tipe: "heading",
+      isi: "Peluang Pengembangan"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Salah satu peluang yang kami temukan adalah proses pencatatan transaksi yang masih dilakukan secara manual. Kondisi ini membuka kesempatan untuk menerapkan sistem pencatatan digital yang lebih praktis sehingga pengelolaan data pelanggan dan transaksi dapat dilakukan dengan lebih rapi dan efisien."
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Di sisi lain, penggunaan media sosial dan pembayaran digital menunjukkan bahwa usaha ini telah mulai beradaptasi dengan perkembangan teknologi. Langkah tersebut menjadi fondasi yang baik untuk mendukung proses digitalisasi di masa mendatang."
+    },
+
+    {
+      tipe: "heading",
+      isi: "Kesimpulan"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Melalui tugas ini, saya belajar menerapkan framework 3P+2P sebagai alat untuk menganalisis sebuah usaha secara lebih terstruktur. Pengalaman ini membantu saya memahami bahwa setiap aspek dalam sebuah bisnis saling berkaitan, dan pemanfaatan teknologi dapat menjadi salah satu faktor penting dalam meningkatkan kualitas layanan serta daya saing usaha."
+    }
+  ]
+},
+
+{
+  slug: "tugas-startup",
+  judul: "Latihan Start Up: Knowledge, Skill, Attitude, dan Contoh Bisnis",
+  mataKuliah: "Teknopreneur",
+  tanggal: "2026",
+  tags: ["Teknopreneur", "Start Up", "Entrepreneurship"],
+  deskripsi: "Tugas individu yang membahas pentingnya knowledge, skill, dan attitude dalam membangun jiwa entrepreneur, serta mengulas Canva sebagai salah satu contoh startup berbasis teknologi.",
+  thumbnail: "/images/tugas/startup-cover.jpg",
+  fileLampiran: [
+    {
+      nama: "Presentasi Start Up.pdf",
+      ukuran: "2.4 MB",
+      tipe: "pdf",
+      url: "/files/tugas/TUGAS_START_UP_Kezia_.pdf"
+    }
+  ],
+  foto: [],
+  pptEmbedUrl: "/files/tugas/TUGAS_START_UP_Kezia_.pdf",
+  konten: [
+    {
+      tipe: "paragraf",
+      isi: "Melalui tugas individu pada mata kuliah Teknopreneur ini, saya mempelajari pentingnya tiga hal yang menjadi dasar dalam membangun jiwa entrepreneur, yaitu knowledge, skill, dan attitude. Selain itu, saya juga mengulas salah satu contoh startup yang dekat dengan kehidupan sehari-hari, yaitu Canva, untuk memahami bagaimana sebuah bisnis berbasis teknologi dapat berkembang dan memberikan manfaat bagi banyak orang."
+    },
+
+    {
+      tipe: "heading",
+      isi: "Knowledge, Skill, dan Attitude"
+    },
+
+    {
+      tipe: "subheading",
+      isi: "Knowledge (Pengetahuan)"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Pengetahuan menjadi dasar dalam mengambil keputusan yang tepat. Saya pernah mengalami kesulitan saat mengerjakan proyek perkuliahan karena belum memahami konsep dasarnya dengan baik. Pengalaman tersebut membuat saya menyadari bahwa memahami teori sebelum mulai bekerja akan membantu menghasilkan keputusan dan solusi yang lebih tepat."
+    },
+
+    {
+      tipe: "subheading",
+      isi: "Skill (Kemampuan)"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Selain pengetahuan, kemampuan untuk menerapkan apa yang telah dipelajari juga sangat penting. Sebagai mahasiswa Sistem Informasi, saya belajar bahwa sebuah ide akan lebih bernilai jika dapat diwujudkan menjadi solusi yang nyata. Oleh karena itu, keterampilan teknis perlu terus diasah agar mampu mengembangkan berbagai proyek maupun produk digital."
+    },
+
+    {
+      tipe: "subheading",
+      isi: "Attitude (Sikap)"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Sikap menjadi faktor yang melengkapi pengetahuan dan kemampuan. Kemauan untuk terus belajar, beradaptasi, serta tidak mudah menyerah ketika menghadapi tantangan merupakan bekal yang penting bagi seorang entrepreneur. Dengan sikap yang baik, proses belajar dan pengembangan diri akan berjalan lebih konsisten."
+    },
+
+    {
+      tipe: "heading",
+      isi: "Contoh Startup: Canva"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Sebagai contoh startup, saya memilih Canva karena merupakan platform desain yang cukup sering saya gunakan, baik untuk mengerjakan tugas kuliah maupun membuat berbagai kebutuhan desain. Canva mempermudah proses pembuatan desain melalui template yang beragam sehingga dapat digunakan oleh siapa saja, termasuk pengguna yang belum memiliki pengalaman di bidang desain grafis."
+    },
+
+    {
+      tipe: "poin",
+      judul: "Alur penggunaan Canva secara sederhana:",
+      items: [
+        "Masuk ke aplikasi atau website Canva menggunakan akun yang dimiliki.",
+        "Memilih jenis desain yang ingin dibuat.",
+        "Menggunakan template yang tersedia sebagai dasar desain.",
+        "Menyesuaikan teks, gambar, warna, maupun elemen sesuai kebutuhan.",
+        "Mengunduh atau membagikan hasil desain setelah selesai."
+      ]
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Selain dimanfaatkan untuk kebutuhan pribadi maupun akademik, Canva juga membuka peluang usaha di bidang desain digital. Dengan memanfaatkan fitur yang tersedia, seseorang dapat menawarkan jasa pembuatan poster, presentasi, media promosi, maupun konten media sosial dengan modal yang relatif terjangkau."
+    },
+
+    {
+      tipe: "heading",
+      isi: "Kesimpulan"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Melalui tugas ini, saya memahami bahwa membangun sebuah startup tidak hanya membutuhkan ide yang menarik, tetapi juga didukung oleh pengetahuan, keterampilan, dan sikap yang saling melengkapi. Ketiga aspek tersebut menjadi bekal penting bagi seorang entrepreneur untuk terus belajar, berinovasi, dan mengembangkan solusi yang bermanfaat."
+    }
+  ]
+},
+
+{
+  slug: "tugas-manajemen-risiko",
+  judul: "Latihan Manajemen Risiko dalam Teknopreneur",
+  mataKuliah: "Teknopreneur",
+  tanggal: "2026",
+  tags: ["Teknopreneur", "Manajemen Risiko", "Presentasi"],
+  deskripsi: "Tugas individu yang membahas konsep dasar manajemen risiko, tahapan pengelolaannya, serta pentingnya penerapan manajemen risiko dalam dunia teknologi dan kewirausahaan.",
+  thumbnail: "/images/tugas/risiko-cover.jpg",
+  fileLampiran: [
+    {
+      nama: "Presentasi Manajemen Risiko.pdf",
+      ukuran: "1.8 MB",
+      tipe: "pdf",
+      url: "/files/tugas/Tugas_Teknopreneur_Kezia.pdf"
+    }
+  ],
+  foto: [],
+  pptEmbedUrl: "/files/tugas/Tugas_Teknopreneur_Kezia.pdf",
+  konten: [
+    {
+      tipe: "paragraf",
+      isi: "Pada tugas individu ini, saya mempelajari konsep dasar manajemen risiko, mulai dari pengertian risiko, tahapan pengelolaannya, hingga pentingnya penerapan manajemen risiko dalam mendukung keberhasilan sebuah proyek maupun usaha berbasis teknologi."
+    },
+
+    {
+      tipe: "heading",
+      isi: "Memahami Risiko dan Manajemen Risiko"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Risiko merupakan kemungkinan terjadinya suatu peristiwa yang dapat menghambat pencapaian tujuan. Dalam kegiatan sehari-hari, risiko dapat muncul kapan saja, termasuk saat mengerjakan proyek perkuliahan. Saya pernah mengalami kendala ketika laptop mengalami kerusakan sehingga beberapa data penting tidak dapat diakses. Dari pengalaman tersebut, saya mulai memahami pentingnya mengantisipasi risiko sejak awal."
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Manajemen risiko adalah proses mengidentifikasi, menganalisis, dan mengendalikan risiko agar dampaknya dapat diminimalkan. Salah satu langkah sederhana yang kini saya biasakan adalah melakukan backup data secara rutin serta menyiapkan alternatif apabila terjadi kendala selama proses pengerjaan."
+    },
+
+    {
+      tipe: "heading",
+      isi: "Tahapan Manajemen Risiko"
+    },
+
+    {
+      tipe: "poin",
+      judul: "Tahapan yang dipelajari dalam proses manajemen risiko:",
+      items: [
+        "Identifikasi risiko untuk mengetahui potensi masalah yang mungkin terjadi.",
+        "Analisis risiko guna menilai kemungkinan serta dampak yang ditimbulkan.",
+        "Menentukan strategi pengelolaan risiko sesuai tingkat prioritas.",
+        "Menerapkan solusi yang telah direncanakan.",
+        "Melakukan pemantauan secara berkala agar risiko tetap terkendali."
+      ]
+    },
+
+    {
+      tipe: "heading",
+      isi: "Strategi Pengelolaan Risiko"
+    },
+
+    {
+      tipe: "poin",
+      judul: "Beberapa strategi yang umum digunakan:",
+      items: [
+        "Menghindari risiko (Risk Avoidance).",
+        "Mengurangi dampak risiko (Risk Reduction).",
+        "Mengalihkan risiko kepada pihak lain (Risk Transfer).",
+        "Menunda aktivitas yang berisiko (Risk Deferral).",
+        "Menerima risiko dengan tetap menyiapkan langkah antisipasi (Risk Retention)."
+      ]
+    },
+
+    {
+      tipe: "heading",
+      isi: "Pentingnya Manajemen Risiko"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Sebagai mahasiswa Sistem Informasi, saya menyadari bahwa setiap proyek selalu memiliki risiko yang perlu dikelola dengan baik. Kemampuan mengidentifikasi potensi masalah sejak awal dapat membantu proses pengerjaan menjadi lebih terarah serta mengurangi kemungkinan terjadinya kendala yang berdampak pada hasil akhir."
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Melalui tugas ini, saya juga belajar bahwa manajemen risiko tidak hanya diterapkan dalam dunia bisnis, tetapi juga dapat diterapkan dalam aktivitas sehari-hari, termasuk saat mengerjakan tugas, mengembangkan aplikasi, maupun menjalankan sebuah proyek."
+    },
+
+    {
+      tipe: "heading",
+      isi: "Kesimpulan"
+    },
+
+    {
+      tipe: "paragraf",
+      isi: "Tugas ini memberikan pemahaman bahwa manajemen risiko merupakan bagian penting dalam proses pengambilan keputusan. Dengan mengenali potensi risiko lebih awal dan menyiapkan langkah antisipasi yang tepat, sebuah proyek atau usaha dapat berjalan dengan lebih terencana, efektif, dan siap menghadapi berbagai tantangan."
+    }
+  ]
+},
+
 ]
 
 export const blogConfig = {
