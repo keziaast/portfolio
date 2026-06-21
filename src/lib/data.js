@@ -287,7 +287,7 @@ export const tugasList = [
     "/images/tugas/kelompok-poster.png",
     "/images/tugas/kelompok-foto1.jpeg"
   ],
-  pptEmbedUrl: "/files/tugas/Teknopreneur_KEL_5.pdf",
+  pptEmbedUrl: "/files/tugas/TECHNOPRENEURSHIP_KEL_5.pdf",
   konten: [
     {
       tipe: "paragraf",
