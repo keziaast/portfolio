@@ -280,7 +280,7 @@ export const tugasList = [
       nama: "Presentasi Kelompok 5.pdf",
       ukuran: "3.1 MB",
       tipe: "pdf",
-      url: "/files/tugas/Teknopreneur_KEL_5.pdf"
+      url: "/files/tugas/TECHNOPRENEURSHIP_KEL_5.pdf"
     }
   ],
   foto: [
