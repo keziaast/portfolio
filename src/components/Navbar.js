@@ -7,10 +7,8 @@ import { socialLinks } from '../lib/data'
 const navItems = [
   { label: 'Home',      href: '#home'      },
   { label: 'About',     href: '#about'     },
-  { label: 'Skills',    href: '#skills'    },
-  { label: 'Education', href: '#education' },
   { label: 'Projects',  href: '#projects'  },
-  { label: 'Blog',      href: '#blog'      },
+  { label: 'Education', href: '#education' },
   { label: 'CV',        href: '#cv'        },
   { label: 'Contact',   href: '#contact'   },
 ]
@@ -123,8 +121,8 @@ export default function Navbar() {
                         bg-white dark:bg-[#1E1E2E]
                         shadow-md dark:shadow-none
                         border border-gray-100 dark:border-white/[0.07]
-                        text-[#0BB8D4]
-                        hover:bg-[#0BB8D4] hover:text-white hover:border-[#0BB8D4]
+                        text-[#004499]
+                        hover:bg-[#004499] hover:text-white hover:border-[#004499]
                         hover:scale-110
                         transition-all duration-200">
             <SocialIcon platform={social.platform} />
@@ -140,18 +138,11 @@ export default function Navbar() {
    rel="noopener noreferrer"
    title="Afiliasi Kampus USTI"
    className="w-10 h-10 rounded-full flex items-center justify-center
-              bg-white dark:bg-[#1E1E2E]
-              shadow-md dark:shadow-none
+              bg-white shadow-md
               border border-gray-100 dark:border-white/[0.07]
-              text-[#0BB8D4]
-              hover:bg-[#0BB8D4] hover:text-white hover:border-[#0BB8D4]
-              hover:scale-110
-              transition-all duration-200">
-  <svg viewBox="0 0 24 24" className="w-[17px] h-[17px]" fill="none"
-    stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-    <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
-    <path d="M6 12v5c3 3 9 3 12 0v-5"/>
-  </svg>
+              hover:scale-110 hover:border-[#004499]
+              transition-all duration-200 overflow-hidden p-1.5">
+  <img src="/images/logo-usti.png" alt="Logo USTI" className="w-full h-full object-contain" />
 </a>
 
       </div>
@@ -165,8 +156,8 @@ export default function Navbar() {
             title={label}
             className={`w-2 h-2 rounded-full border-none transition-all duration-300 cursor-pointer
               ${active === href.replace('#', '')
-                ? 'bg-[#0BB8D4] scale-150'
-                : 'bg-gray-300 dark:bg-white/20 hover:bg-[#0BB8D4]'
+                ? 'bg-[#004499] scale-150'
+                : 'bg-gray-300 dark:bg-white/20 hover:bg-[#004499]'
               }`}
           />
         ))}
@@ -182,10 +173,10 @@ export default function Navbar() {
         {/* Inner wrapper — 3 kolom: logo | menu tengah | toggle */}
         <div className="max-w-[1280px] mx-auto h-full px-6 flex items-center justify-between gap-4">
 
-          {/* Logo kiri */}
-          <div className="font-bold text-lg text-[#0BB8D4] whitespace-nowrap flex-shrink-0 min-w-[120px]">
-            Kezia Asitha<span className="text-[#1A1A2E] dark:text-[#E8E8F5]"></span>
-          </div>
+          {/* Logo kampus kiri */}
+          <a href="#home" className="flex-shrink-0 min-w-[120px] flex items-center">
+            <img src="/images/logo-usti.png" alt="Logo USTI" className="h-12 w-auto object-contain" />
+            </a>
 
           {/* ✅ Menu tengah — flex-1 + justify-center */}
           <ul className="hidden lg:flex flex-1 justify-center gap-1 list-none">
@@ -195,13 +186,13 @@ export default function Navbar() {
                    className={`text-sm font-semibold px-4 py-1.5 rounded-md transition-colors relative
                      whitespace-nowrap
                      ${active === href.replace('#', '')
-                       ? 'text-[#0BB8D4]'
-                       : 'text-gray-600 dark:text-[#7878A0] hover:text-[#0BB8D4]'
+                       ? 'text-[#004499]'
+                       : 'text-gray-600 dark:text-[#7878A0] hover:text-[#004499]'
                      }`}>
                   {label}
                   {active === href.replace('#', '') && (
                     <span className="absolute bottom-[-2px] left-3 right-3 h-[2px]
-                                     bg-[#0BB8D4] rounded-full" />
+                                     bg-[#004499] rounded-full" />
                   )}
                 </a>
               </li>
@@ -214,7 +205,7 @@ export default function Navbar() {
               className="w-10 h-10 rounded-full flex items-center justify-center
                          bg-gray-100 dark:bg-[#1E1E2E]
                          border border-gray-200 dark:border-white/[0.07]
-                         hover:border-[#0BB8D4] hover:rotate-12
+                         hover:border-[#004499] hover:rotate-12
                          transition-all duration-200 text-lg"
               aria-label="Toggle dark mode">
               {dark ? '☀️' : '🌙'}
@@ -243,7 +234,7 @@ export default function Navbar() {
               <a key={href} href={href} onClick={() => setMenuOpen(false)}
                  className="block px-6 py-3 text-sm font-medium
                             text-gray-600 dark:text-[#7878A0]
-                            hover:text-[#0BB8D4] hover:bg-gray-50 dark:hover:bg-white/[0.03]
+                            hover:text-[#004499] hover:bg-gray-50 dark:hover:bg-white/[0.03]
                             border-b border-gray-100 dark:border-white/[0.04] last:border-0
                             transition-colors">
                 {label}
@@ -257,7 +248,7 @@ export default function Navbar() {
                    className="w-9 h-9 rounded-full flex items-center justify-center
                               bg-white dark:bg-[#1E1E2E] shadow-sm
                               border border-gray-200 dark:border-white/[0.07]
-                              text-[#0BB8D4] hover:bg-[#0BB8D4] hover:text-white
+                              text-[#004499] hover:bg-[#004499] hover:text-white
                               transition-all duration-200">
                   <SocialIcon platform={social.platform} />
                 </a>
@@ -267,16 +258,12 @@ export default function Navbar() {
      rel="noopener noreferrer"
      title="Afiliasi Kampus USTI"
      className="w-9 h-9 rounded-full flex items-center justify-center
-                bg-white dark:bg-[#1E1E2E] shadow-sm
-                border border-gray-200 dark:border-white/[0.07]
-                text-[#0BB8D4] hover:bg-[#0BB8D4] hover:text-white
-                transition-all duration-200">
-    <svg viewBox="0 0 24 24" className="w-[16px] h-[16px]" fill="none"
-      stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
-      <path d="M6 12v5c3 3 9 3 12 0v-5"/>
-    </svg>
-  </a>
+              bg-white shadow-md
+              border border-gray-100 dark:border-white/[0.07]
+              hover:scale-110 hover:border-[#004499]
+              transition-all duration-200 overflow-hidden p-1.5">
+  <img src="/images/logo-usti.png" alt="Logo USTI" className="w-full h-full object-contain" />
+</a>
             </div>
           </div>
         )}

@@ -6,10 +6,8 @@ import { profileData, socialLinks } from '../lib/data'
 const navLinks = [
   { label: 'Home',      href: '#home'      },
   { label: 'About',     href: '#about'     },
-  { label: 'Skills',    href: '#skills'    },
-  { label: 'Education', href: '#education' },
   { label: 'Projects',  href: '#projects'  },
-  { label: 'Blog',      href: '#blog'      },
+  { label: 'Education', href: '#education' },
   { label: 'CV',        href: '#cv'        },
   { label: 'Contact',   href: '#contact'   },
 ]
@@ -68,8 +66,11 @@ const FooterSocialIcon = ({ platform }) => {
 
 export default function Footer() {
   return (
-    <footer className="relative z-10 bg-[#0BB8D4] text-white">
+    <footer className="relative z-10 bg-[#004499] text-white">
       <div className="max-w-[1180px] mx-auto px-[6%] py-14 flex flex-col items-center gap-6">
+
+         {/* Logo kampus */}
+    <img src="/images/logo-usti.png" alt="Logo USTI" className="w-14 h-14 object-contain bg-white rounded-full p-1.5" />
 
         {/* Nama */}
         <h3 className="text-2xl font-bold tracking-tight">{profileData.name}</h3>

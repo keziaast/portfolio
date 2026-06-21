@@ -10,7 +10,7 @@ export default function EducationAwards() {
       <div className="reveal">
         <span className="sec-tag">Perjalanan</span>
         <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-1">
-          Educations <span className="text-[#0BB8D4]">&</span> Awards
+          Educations <span className="text-[#004499]">&</span> Awards
         </h2>
         <div className="sec-line" />
         <p className="text-sm text-gray-500 dark:text-[#7878A0] mb-8">
@@ -22,7 +22,7 @@ export default function EducationAwards() {
 
         {/* Label kiri */}
         <div className="lg:sticky lg:top-24">
-          <h3 className="text-2xl font-bold text-[#0BB8D4] leading-tight mb-3">
+          <h3 className="text-2xl font-bold text-[#004499] leading-tight mb-3">
             Educations 🎓<br/>& Awards 🏆
           </h3>
           <p className="text-sm text-gray-500 dark:text-[#7878A0] leading-relaxed">
@@ -39,7 +39,7 @@ export default function EducationAwards() {
               {/* Header */}
               <div className="flex items-center gap-2 mb-6">
                 <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg
-                                 bg-[#0BB8D4] text-white text-xs font-bold tracking-wider uppercase">
+                                 bg-[#004499] text-white text-xs font-bold tracking-wider uppercase">
                   🎓 Educations
                 </span>
               </div>
@@ -48,14 +48,14 @@ export default function EducationAwards() {
               <div className="relative pl-5">
                 {/* Garis vertikal */}
                 <div className="absolute left-[7px] top-2 bottom-2 w-[2px]
-                                bg-gradient-to-b from-[#0BB8D4] to-[#0BB8D4]/20 rounded-full" />
+                                bg-gradient-to-b from-[#004499] to-[#004499]/20 rounded-full" />
 
                 <div className="flex flex-col gap-7">
                   {educations.map((edu, i) => (
                     <div key={i} className="relative">
                       {/* Titik bulat */}
                       <div className="absolute -left-5 top-1 w-3.5 h-3.5 rounded-full
-                                      bg-[#0BB8D4] border-2 border-white dark:border-[#16161F]
+                                      bg-[#004499] border-2 border-white dark:border-[#16161F]
                                       shadow-sm" />
                       <h4 className="font-bold text-sm leading-snug mb-1">{edu.school}</h4>
                       <p className="text-xs text-gray-500 dark:text-[#7878A0] mb-1.5">{edu.major}</p>
@@ -79,7 +79,7 @@ export default function EducationAwards() {
             <div>
               <div className="flex items-center gap-2 mb-6">
                 <span className="inline-flex items-center gap-2 px-4 py-2 rounded-lg
-                                 bg-[#0BB8D4] text-white text-xs font-bold tracking-wider uppercase">
+                                 bg-[#004499] text-white text-xs font-bold tracking-wider uppercase">
                   🏆 Awards
                 </span>
               </div>
@@ -87,12 +87,12 @@ export default function EducationAwards() {
               {awards.length > 0 ? (
                 <div className="relative pl-5">
                   <div className="absolute left-[7px] top-2 bottom-2 w-[2px]
-                                  bg-gradient-to-b from-[#0BB8D4] to-[#0BB8D4]/20 rounded-full" />
+                                  bg-gradient-to-b from-[#004499] to-[#004499]/20 rounded-full" />
                   <div className="flex flex-col gap-7">
                     {awards.map((aw, i) => (
                       <div key={i} className="relative">
                         <div className="absolute -left-5 top-1 w-3.5 h-3.5 rounded-full
-                                        bg-[#0BB8D4] border-2 border-white dark:border-[#16161F]
+                                        bg-[#004499] border-2 border-white dark:border-[#16161F]
                                         shadow-sm" />
                         <h4 className="font-bold text-sm leading-snug mb-1">{aw.title}</h4>
                         <p className="text-xs text-gray-500 dark:text-[#7878A0] mb-1.5">{aw.issuer}</p>

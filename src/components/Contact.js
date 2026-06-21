@@ -15,7 +15,7 @@ const contactIcons = {
   },
   email: {
     bg: 'bg-white border border-gray-200 dark:border-white/10',
-    hover: 'group-hover:border-[#0BB8D4]',
+    hover: 'group-hover:border-[#004499]',
     // Gmail colored M logo
     svg: (
       <svg viewBox="0 0 24 24" className="w-7 h-7">
@@ -79,7 +79,7 @@ export default function Contact() {
       <div className="reveal">
         <span className="sec-tag">Hubungi Saya</span>
         <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-1">
-          Feel Free To <span className="text-[#0BB8D4]">Contact Me</span> 📨
+          Feel Free To <span className="text-[#004499]">Contact Me</span> 📨
         </h2>
         <div className="sec-line" />
         <p className="text-sm text-gray-500 dark:text-[#7878A0] mb-10 max-w-lg">
@@ -99,7 +99,7 @@ export default function Contact() {
                rel="noopener noreferrer"
                className="group card p-5 flex items-center gap-4
                           hover:-translate-y-1 hover:shadow-lg
-                          hover:border-[#0BB8D4] transition-all duration-200">
+                          hover:border-[#004499] transition-all duration-200">
 
               {/* Ikon berwarna */}
               <div className={`w-14 h-14 rounded-2xl flex items-center justify-center
@@ -116,7 +116,7 @@ export default function Contact() {
                 <div className="text-xs text-gray-500 dark:text-[#7878A0] truncate mb-1.5">
                   {contact.value}
                 </div>
-                <span className="text-xs font-semibold text-[#0BB8D4]
+                <span className="text-xs font-semibold text-[#004499]
                                  group-hover:underline transition-all">
                   Send Me A Message →
                 </span>
@@ -134,7 +134,7 @@ export default function Contact() {
   <div className="card overflow-hidden">
     <div className="bg-gray-50 dark:bg-[#13131E] px-5 py-3 border-b border-gray-200
                     dark:border-white/[0.07] flex items-center gap-2">
-      <span className="text-[#0BB8D4] text-sm font-semibold">
+      <span className="text-[#004499] text-sm font-semibold">
         Universitas Sains dan Teknologi Indonesia  {/* ← ganti nama kampus */}
       </span>
     </div>

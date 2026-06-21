@@ -8,7 +8,7 @@ export default function CV() {
       <div className="reveal">
         <span className="sec-tag">Curriculum Vitae</span>
         <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-1">
-          Download <span className="text-[#0BB8D4]">CV</span>
+          Download <span className="text-[#004499]">CV</span>
         </h2>
         <div className="sec-line" />
       </div>
@@ -17,12 +17,12 @@ export default function CV() {
                       gap-8 relative overflow-hidden reveal">
         {/* Glow kanan */}
         <div className="absolute right-0 top-0 w-72 h-72 rounded-full pointer-events-none"
-             style={{ background: 'radial-gradient(circle, rgba(11,184,212,0.07), transparent 70%)',
+             style={{ background: 'radial-gradient(circle, rgba(0,68,153,0.07), transparent 70%)',
                       transform: 'translate(30%, -30%)' }} />
 
         {/* Garis kiri aksen */}
         <div className="absolute left-0 top-0 bottom-0 w-1 rounded-l-2xl"
-             style={{ background: 'linear-gradient(180deg, #0BB8D4, #0891B2)' }} />
+             style={{ background: 'linear-gradient(180deg, #004499, #CC9933)' }} />
 
         <div className="pl-4">
           <h3 className="text-2xl font-bold mb-2">Tertarik untuk berkolaborasi? 🤝</h3>

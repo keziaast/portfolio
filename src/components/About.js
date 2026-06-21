@@ -22,20 +22,20 @@ export default function About() {
       <div className="reveal mb-1">
         <span className="sec-tag">Tentang Saya</span>
         <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-1">
-          About <span className="text-[#0BB8D4]">Me</span>
+          About <span className="text-[#004499]">Me</span>
         </h2>
         <div className="sec-line" />
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.6fr] gap-12 items-start">
+      <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.6fr] gap-12 items-stretch">
 
         {/* Foto profil */}
-        <div className="reveal-left">
+        <div className="reveal-left h-full">
           <div className="relative bg-gray-100 dark:bg-[#13131E] border border-gray-200
-                          dark:border-white/[0.07] rounded-2xl aspect-[3/4] flex items-center
-                          justify-center overflow-hidden">
+                dark:border-white/[0.07] rounded-2xl h-full min-h-[420px] flex items-center
+                justify-center overflow-hidden">
             <div className="absolute top-0 left-0 right-0 h-1 rounded-t-2xl"
-                 style={{ background: 'linear-gradient(90deg,#0BB8D4,#0891B2)' }} />
+                 style={{ background: 'linear-gradient(90deg,#004499,#CC9933)' }} />
             {!profileErr ? (
               <Image src={profileData.photo} alt={profileData.name} fill
                      className="object-cover" onError={() => setProfileErr(true)} />
@@ -57,8 +57,8 @@ export default function About() {
               <div key={item.k}
                    className="bg-gray-50 dark:bg-[#13131E] border border-gray-200
                               dark:border-white/[0.07] rounded-xl p-3
-                              hover:border-[#0BB8D4] transition-colors min-w-0">
-                <div className="text-[10px] font-semibold text-[#0BB8D4] uppercase tracking-wider mb-1">
+                              hover:border-[#004499] transition-colors min-w-0">
+                <div className="text-[10px] font-semibold text-[#004499] uppercase tracking-wider mb-1">
                   {item.k}
                 </div>
                 {/* ✅ truncate diganti text wrap normal supaya terbaca semua */}
@@ -69,8 +69,8 @@ export default function About() {
             {/* Universitas — full width supaya nama panjang tidak terpotong */}
             <div className="col-span-2 bg-gray-50 dark:bg-[#13131E] border border-gray-200
                             dark:border-white/[0.07] rounded-xl p-3
-                            hover:border-[#0BB8D4] transition-colors">
-              <div className="text-[10px] font-semibold text-[#0BB8D4] uppercase tracking-wider mb-1">
+                            hover:border-[#004499] transition-colors">
+              <div className="text-[10px] font-semibold text-[#004499] uppercase tracking-wider mb-1">
                 Universitas
               </div>
               <div className="text-sm font-medium">{profileData.university}</div>
@@ -79,13 +79,13 @@ export default function About() {
             {/* Dosen Card — full width */}
             <div className="col-span-2 bg-gray-50 dark:bg-[#13131E] border border-gray-200
                             dark:border-white/[0.07] rounded-xl p-4 flex items-center gap-4
-                            hover:border-[#0BB8D4] transition-all duration-200 relative overflow-hidden">
+                            hover:border-[#004499] transition-all duration-200 relative overflow-hidden">
               <div className="absolute left-0 top-0 bottom-0 w-[3px] rounded-l-xl"
-                   style={{ background: 'linear-gradient(180deg,#0BB8D4,#0891B2)' }} />
+                   style={{ background: 'linear-gradient(180deg,#004499,#CC9933)' }} />
 
               {/* Avatar dosen */}
               <div className="ml-1 flex-shrink-0">
-                <div className="w-[68px] h-[68px] rounded-full border-[2.5px] border-[#0BB8D4]
+                <div className="w-[68px] h-[68px] rounded-full border-[2.5px] border-[#004499]
                                 bg-gray-200 dark:bg-[#1E1E2E] flex items-center justify-center
                                 overflow-hidden text-4xl">
                   {!dosenErr ? (
@@ -101,7 +101,7 @@ export default function About() {
 
               {/* Info dosen */}
               <div className="flex-1 min-w-0">
-                <div className="text-[10px] font-semibold text-[#0BB8D4] uppercase tracking-wider mb-1">
+                <div className="text-[10px] font-semibold text-[#004499] uppercase tracking-wider mb-1">
                   Dosen Pengampu
                 </div>
                 <div className="text-sm font-bold leading-snug">{profileData.dosen.name}</div>
@@ -109,9 +109,9 @@ export default function About() {
                   {profileData.dosen.mataKuliah}
                 </div>
                 <span className="inline-flex items-center gap-1.5 mt-2 text-[10px] font-semibold
-                                 bg-[rgba(11,184,212,.10)] text-[#0891B2] dark:text-[#67E8F9]
-                                 px-2.5 py-0.5 rounded-full border border-[rgba(11,184,212,.2)]">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#0BB8D4]" />
+                                 bg-[rgba(0,68,153,.10)] text-[#CC9933] dark:text-[#E8C766]
+                                 px-2.5 py-0.5 rounded-full border border-[rgba(0,68,153,.2)]">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#004499]" />
                   Dosen Aktif · 2026
                 </span>
               </div>

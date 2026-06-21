@@ -21,7 +21,7 @@ export default function TugasDetail({ params }) {
         {/* Tombol kembali */}
         <Link href="/#projects"
           className="inline-flex items-center gap-2 text-sm
-                     text-[#0BB8D4] mb-8 hover:underline">
+                     text-[#004499] mb-8 hover:underline">
           ← Kembali ke daftar tugas
         </Link>
 
@@ -30,7 +30,7 @@ export default function TugasDetail({ params }) {
           {tugas.tags.map(tag => (
             <span key={tag}
               className="text-xs font-semibold px-3 py-1 rounded-full
-                         bg-[#0BB8D4]/10 text-[#0BB8D4]">
+                         bg-[#004499]/10 text-[#004499]">
               {tag}
             </span>
           ))}
@@ -62,7 +62,7 @@ export default function TugasDetail({ params }) {
             )
             if (blok.tipe === 'subheading') return (
               <h3 key={i} className="text-lg font-semibold mt-6 mb-2
-                                     text-[#0BB8D4]">
+                                     text-[#004499]">
                 {blok.isi}
               </h3>
             )
@@ -84,7 +84,7 @@ export default function TugasDetail({ params }) {
                   {blok.items.map((item, j) => (
                     <li key={j} className="flex items-start gap-2
                                            text-gray-600 dark:text-gray-300 text-sm">
-                      <span className="text-[#0BB8D4] mt-0.5 flex-shrink-0">✓</span>
+                      <span className="text-[#004499] mt-0.5 flex-shrink-0">✓</span>
                       {item}
                     </li>
                   ))}
@@ -166,9 +166,9 @@ export default function TugasDetail({ params }) {
                     </div>
                   </div>
                   <a href={file.url} download
-                    className="text-xs font-semibold text-[#0BB8D4]
-                               border border-[#0BB8D4] px-3 py-1.5 rounded-lg
-                               hover:bg-[#0BB8D4] hover:text-white
+                    className="text-xs font-semibold text-[#004499]
+                               border border-[#004499] px-3 py-1.5 rounded-lg
+                               hover:bg-[#004499] hover:text-white
                                transition-colors">
                     ⬇ Unduh
                   </a>
@@ -184,7 +184,7 @@ export default function TugasDetail({ params }) {
             <Link href={`/tugas/${prev.slug}`}
               className="bg-gray-50 dark:bg-[#16161F]
                          border border-gray-200 dark:border-white/[0.07]
-                         rounded-xl p-4 hover:border-[#0BB8D4] transition-colors">
+                         rounded-xl p-4 hover:border-[#004499] transition-colors">
               <p className="text-xs text-gray-400 mb-1">← Sebelumnya</p>
               <p className="text-sm font-semibold text-gray-800
                             dark:text-gray-200 line-clamp-2">
@@ -197,7 +197,7 @@ export default function TugasDetail({ params }) {
             <Link href={`/tugas/${next.slug}`}
               className="bg-gray-50 dark:bg-[#16161F]
                          border border-gray-200 dark:border-white/[0.07]
-                         rounded-xl p-4 text-right hover:border-[#0BB8D4]
+                         rounded-xl p-4 text-right hover:border-[#004499]
                          transition-colors">
               <p className="text-xs text-gray-400 mb-1">Berikutnya →</p>
               <p className="text-sm font-semibold text-gray-800

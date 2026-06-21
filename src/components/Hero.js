@@ -61,7 +61,7 @@ export default function Hero() {
         </p>
 
         {/* ✅ FIX: nama tampil satu baris, tidak dipecah */}
-        <h1 className="text-4xl md:text-5xl lg:text-[4rem] font-extrabold text-[#0BB8D4]
+        <h1 className="text-4xl md:text-5xl lg:text-[4rem] font-extrabold text-[#004499]
                        leading-tight mb-2 whitespace-nowrap">
           {profileData.name}
         </h1>
@@ -70,7 +70,7 @@ export default function Hero() {
         <div className="text-lg font-semibold text-[#1A1A2E] dark:text-[#E8E8F5]
                         mb-5 h-7 flex items-center gap-0.5">
           <span>{typed}</span>
-          <span className="inline-block w-[2px] h-[1em] bg-[#0BB8D4] animate-blink align-middle" />
+          <span className="inline-block w-[2px] h-[1em] bg-[#004499] animate-blink align-middle" />
         </div>
 
         <p className="text-sm text-gray-500 dark:text-[#7878A0] leading-relaxed max-w-md mb-8">
@@ -95,7 +95,7 @@ export default function Hero() {
       {/* Foto kanan */}
       <div className="hidden lg:flex justify-center items-center reveal-right">
         <div className="relative w-[320px] aspect-square">
-          <div className="w-full h-full rounded-full bg-[#0BB8D4] flex items-end justify-center overflow-hidden">
+          <div className="w-full h-full rounded-full bg-[#004499] flex items-end justify-center overflow-hidden">
             {!imgError ? (
               <Image
                 src={profileData.photo}

@@ -64,7 +64,7 @@ export default function Projects() {
         <div className="reveal">
           <span className="sec-tag">Karya Saya</span>
           <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-1">
-            Projects & <span className="text-[#0BB8D4]">Tugas</span>
+            Projects & <span className="text-[#004499]">Tugas</span>
           </h2>
           <div className="sec-line" />
         </div>
@@ -86,7 +86,7 @@ const hasImg  = autoImg && !imgErrors[project.id]
                                 bg-gray-50 dark:bg-[#13131E] border-b border-gray-200
                                 dark:border-white/[0.07] overflow-hidden flex-shrink-0">
                   <div className="absolute inset-0"
-                       style={{ background: 'linear-gradient(135deg,rgba(11,184,212,.06),transparent 60%)' }} />
+                       style={{ background: 'linear-gradient(135deg,rgba(0,68,153,.06),transparent 60%)' }} />
 
                   {hasImg ? (
                     <Image
@@ -128,14 +128,14 @@ const hasImg  = autoImg && !imgErrors[project.id]
   {/* ✅ Kalau artikel → tombol "Baca Artikel" pakai Link */}
   {project.type === 'artikel' && project.tugasSlug ? (
     <Link href={`/tugas/${project.tugasSlug}`}
-      className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-[#0BB8D4] text-white
-                 hover:bg-[#0891B2] transition-colors flex-shrink-0">
+      className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-[#004499] text-white
+                 hover:bg-[#CC9933] transition-colors flex-shrink-0">
       Baca Artikel →
     </Link>
   ) : (
     <button onClick={() => openModal(project)}
-      className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-[#0BB8D4] text-white
-                 hover:bg-[#0891B2] transition-colors flex-shrink-0">
+      className="text-xs font-semibold px-3 py-1.5 rounded-lg bg-[#004499] text-white
+                 hover:bg-[#CC9933] transition-colors flex-shrink-0">
       Details
     </button>
   )}
@@ -144,7 +144,7 @@ const hasImg  = autoImg && !imgErrors[project.id]
     <a href={project.demoUrl} target="_blank" rel="noopener noreferrer"
        className="text-xs font-semibold px-3 py-1.5 rounded-lg border
                   border-gray-200 dark:border-white/[0.07] text-gray-500
-                  hover:border-[#0BB8D4] hover:text-[#0BB8D4] transition-colors flex-shrink-0">
+                  hover:border-[#004499] hover:text-[#004499] transition-colors flex-shrink-0">
       Preview
     </a>
   )}
@@ -161,7 +161,7 @@ const hasImg  = autoImg && !imgErrors[project.id]
     <a href={project.githubUrl} target="_blank" rel="noopener noreferrer"
        className="text-xs font-semibold px-3 py-1.5 rounded-lg border
                   border-gray-200 dark:border-white/[0.07] text-gray-500
-                  hover:border-[#0BB8D4] hover:text-[#0BB8D4] transition-colors flex-shrink-0">
+                  hover:border-[#004499] hover:text-[#004499] transition-colors flex-shrink-0">
       GitHub
     </a>
   )}
@@ -196,7 +196,7 @@ const hasImg  = autoImg && !imgErrors[project.id]
                             bg-gray-50 dark:bg-[#13131E] border-b border-gray-200
                             dark:border-white/[0.07] rounded-t-2xl overflow-hidden">
               <div className="absolute inset-0"
-                   style={{ background: 'linear-gradient(135deg,rgba(11,184,212,.08),transparent 60%)' }} />
+                   style={{ background: 'linear-gradient(135deg,rgba(0,68,153,.08),transparent 60%)' }} />
               {getAutoImage(selected) && !imgErrors[selected.id] ? (
   <Image src={getAutoImage(selected)} alt={selected.title} fill
          className="object-cover" onError={() => handleImgError(selected.id)} />
@@ -242,7 +242,7 @@ const hasImg  = autoImg && !imgErrors[project.id]
                   <a href={selected.pptDownloadUrl} target="_blank" rel="noopener noreferrer"
                      className="text-sm font-semibold px-4 py-2 rounded-lg border
                                 border-gray-200 dark:border-white/[0.07] text-gray-500
-                                hover:border-[#0BB8D4] hover:text-[#0BB8D4] transition-colors">
+                                hover:border-[#004499] hover:text-[#004499] transition-colors">
                     ⬇ Download File
                   </a>
                 )}
@@ -256,7 +256,7 @@ const hasImg  = autoImg && !imgErrors[project.id]
                     <span className="text-xs font-semibold text-gray-500">📑 {selected.title}</span>
                     <a href={selected.pptDownloadUrl || selected.pptEmbedUrl}
                        target="_blank" rel="noopener noreferrer"
-                       className="text-xs text-[#0BB8D4] font-semibold hover:underline">
+                       className="text-xs text-[#004499] font-semibold hover:underline">
                       Buka di tab baru ↗
                     </a>
                   </div>
