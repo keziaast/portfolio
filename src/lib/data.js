@@ -493,11 +493,11 @@ export const tugasList = [
       nama: "Presentasi Start Up.pdf",
       ukuran: "2.4 MB",
       tipe: "pdf",
-      url: "/files/tugas/TUGAS_START_UP_Kezia_.pdf"
+      url: "/files/tugas/TUGAS_START_UP_Kezia.pdf"
     }
   ],
   foto: [],
-  pptEmbedUrl: "/files/tugas/TUGAS_START_UP_Kezia_.pdf",
+  pptEmbedUrl: "/files/tugas/TUGAS_START_UP_Kezia.pdf",
   konten: [
     {
       tipe: "paragraf",
