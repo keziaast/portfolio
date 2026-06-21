@@ -2,6 +2,7 @@
 // src/components/Navbar.js
 
 import { useState, useEffect } from 'react'
+import { useRouter, usePathname } from 'next/navigation'
 import { socialLinks } from '../lib/data'
 
 const navItems = [
@@ -82,6 +83,18 @@ export default function Navbar() {
   const [active,   setActive]   = useState('home')
   const [menuOpen, setMenuOpen] = useState(false)
 
+  const router = useRouter()
+  const pathname = usePathname()
+
+  // ✅ Navigasi pintar: kalau bukan di halaman beranda, pindah ke beranda dulu baru scroll
+  const goToSection = (href) => {
+    if (pathname !== '/') {
+      router.push('/' + href)
+    } else {
+      document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+
   useEffect(() => {
     const saved = localStorage.getItem('theme')
     if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -152,7 +165,7 @@ export default function Navbar() {
                       hidden lg:flex flex-col gap-2 items-center">
         {navItems.map(({ href, label }) => (
           <button key={href}
-            onClick={() => document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => goToSection(href)}
             title={label}
             className={`w-2 h-2 rounded-full border-none transition-all duration-300 cursor-pointer
               ${active === href.replace('#', '')
@@ -174,7 +187,8 @@ export default function Navbar() {
         <div className="max-w-[1280px] mx-auto h-full px-6 flex items-center justify-between gap-4">
 
           {/* Logo kampus kiri */}
-          <a href="#home" className="flex-shrink-0 min-w-[120px] flex items-center">
+          <a href="#home" onClick={(e) => { e.preventDefault(); goToSection('#home') }}
+             className="flex-shrink-0 min-w-[120px] flex items-center">
             <img src="/images/logo-usti.png" alt="Logo USTI" className="h-12 w-auto object-contain" />
             </a>
 
@@ -183,6 +197,7 @@ export default function Navbar() {
             {navItems.map(({ label, href }) => (
               <li key={href}>
                 <a href={href}
+                   onClick={(e) => { e.preventDefault(); goToSection(href) }}
                    className={`text-sm font-semibold px-4 py-1.5 rounded-md transition-colors relative
                      whitespace-nowrap
                      ${active === href.replace('#', '')
@@ -231,7 +246,8 @@ export default function Navbar() {
                           border-b border-gray-200 dark:border-white/[0.07] lg:hidden
                           shadow-lg">
             {navItems.map(({ label, href }) => (
-              <a key={href} href={href} onClick={() => setMenuOpen(false)}
+              <a key={href} href={href}
+                 onClick={(e) => { e.preventDefault(); goToSection(href); setMenuOpen(false) }}
                  className="block px-6 py-3 text-sm font-medium
                             text-gray-600 dark:text-[#7878A0]
                             hover:text-[#004499] hover:bg-gray-50 dark:hover:bg-white/[0.03]
