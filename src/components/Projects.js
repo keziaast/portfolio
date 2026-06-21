@@ -34,6 +34,7 @@ export default function Projects() {
   const [selected, setSelected] = useState(null)
   const [showPpt,  setShowPpt]  = useState(false)
   const [imgErrors, setImgErrors] = useState({})
+  const handleImgError = (id) => setImgErrors(prev => ({ ...prev, [id]: true }))
   const router = useRouter()
 
   const featured = projects.filter(p => p.featured)

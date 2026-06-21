@@ -80,52 +80,8 @@ export const awards = [
 // Rekomendasi gambar gratis: https://undraw.co (SVG ilustrasi)
 export const projects = [
   {
-    id: "tugas-kelompok-teknopreneur",
-    title: "Tugas Kelompok: Presentasi Technopreneurship",
-    description: "Presentasi kelompok 5 mata kuliah Technopreneurship membahas konsep kewirausahaan berbasis teknologi dan mindset seorang technopreneur.",
-    tags: ["Technopreneurship", "Kelompok", "Presentasi"],
-    imageUrl: "/images/tugas/kelompok-cover.jpg",
-    imageFallback: "👥",
-    type: "artikel",
-    tugasSlug: "tugas-kelompok-teknopreneur",
-    featured: true,
-  },
-  {
-    id: "tugas-kelompok-3p2p",
-    title: "Tugas Kelompok: Analisis 3P+2P Bengkel Pramudinata",
-    description: "Tugas kelompok mata kuliah Technopreneurship menganalisis usaha Bengkel Pramudinata Family menggunakan framework 3P+2P sebagai pendekatan pemasaran berbasis teknologi.",
-    tags: ["Technopreneurship", "Kelompok", "Analisis Usaha"],
-    imageUrl: "/images/tugas/kelompok-3p2p-cover.jpg",
-    imageFallback: "🔧",
-    type: "artikel",
-    tugasSlug: "tugas-kelompok-3p2p",
-    featured: true,
-  },
-  {
-    id: "tugas-startup",
-    title: "Tugas Start Up: Knowledge, Skill dan Attitude",
-    description: "Tugas individu Technopreneurship membahas pentingnya knowledge, skill, dan attitude bagi entrepreneur, serta contoh bisnis start up Canva.",
-    tags: ["Technopreneurship", "Start Up", "Entrepreneurship"],
-    imageUrl: "/images/tugas/startup-cover.jpg",
-    imageFallback: "🚀",
-    type: "artikel",
-    tugasSlug: "tugas-startup",
-    featured: true,
-  },
-  {
-    id: "tugas-manajemen-risiko",
-    title: "Tugas Manajemen Risiko",
-    description: "Tugas individu Technopreneurship membahas pengertian, tahap-tahap, dan cara pengelolaan risiko bagi mahasiswa dan calon technopreneur.",
-    tags: ["Technopreneurship", "Manajemen Risiko", "Presentasi"],
-    imageUrl: "/images/tugas/risiko-cover.jpg",
-    imageFallback: "⚠️",
-    type: "artikel",
-    tugasSlug: "tugas-manajemen-risiko",
-    featured: true,
-  },
-  {
     id: "tugas-poster-spanduk",
-    title: "Tugas Desain: Kumpulan Poster dan Spanduk",
+    title: "Kumpulan Poster dan Spanduk",
     description: "Kumpulan hasil desain poster dan spanduk sebagai tugas mata kuliah, dibuat menggunakan Canva dengan tema yang beragam.",
     tags: ["Desain", "Poster", "Spanduk", "Canva"],
     imageUrl: "/images/tugas/poster-cover.jpg",
@@ -134,16 +90,191 @@ export const projects = [
     tugasSlug: "tugas-poster-spanduk",
     featured: true,
   },
+  {
+    id: "tugas-observasi-usaha",
+    title: "Observasi Tempat Usaha (Bengkel Pramudinata)",
+    description: "Tugas individu melakukan observasi dan wawancara ke Bengkel Pramudinata Family untuk memahami transformasi usaha konvensional menuju usaha berbasis teknologi.",
+    tags: ["Teknopreneur", "Observasi", "Wawancara"],
+    imageUrl: "/images/tugas/observasi-cover.jpeg",
+    imageFallback: "🛠️",
+    type: "artikel",
+    tugasSlug: "tugas-observasi-usaha",
+    featured: true,
+  },
+  {
+    id: "tugas-kelompok-teknopreneur",
+    title: "Studi Kasus Teknopreneur: Bengkel Pramudinata Family",
+    description: "Presentasi kelompok 5 mata kuliah Teknopreneur membahas konsep kewirausahaan berbasis teknologi dan mindset seorang technopreneur.",
+    tags: ["Teknopreneur", "Kelompok", "Presentasi"],
+    imageUrl: "/images/tugas/kelompok-cover.jpg",
+    imageFallback: "👥",
+    type: "artikel",
+    tugasSlug: "tugas-kelompok-teknopreneur",
+    featured: true,
+  },
+  {
+    id: "tugas-kelompok-3p2p",
+    title: "Teknopreneur Analisis 3P+2P Bengkel Pramudinata",
+    description: "Tugas kelompok mata kuliah Teknopreneur menganalisis usaha Bengkel Pramudinata Family menggunakan framework 3P+2P sebagai pendekatan pemasaran berbasis teknologi.",
+    tags: ["Teknopreneur", "Kelompok", "Analisis Usaha"],
+    imageUrl: "/images/tugas/kelompok-3p2p-cover.jpg",
+    imageFallback: "🔧",
+    type: "artikel",
+    tugasSlug: "tugas-kelompok-3p2p",
+    featured: true,
+  },
+  {
+    id: "tugas-startup",
+    title: "Latihan Start Up: Knowledge, Skill dan Attitude",
+    description: "Tugas individu Teknopreneur membahas pentingnya knowledge, skill, dan attitude bagi entrepreneur, serta contoh bisnis start up Canva.",
+    tags: ["Teknopreneur", "Start Up", "Entrepreneurship"],
+    imageUrl: "/images/tugas/startup-cover.jpg",
+    imageFallback: "🚀",
+    type: "artikel",
+    tugasSlug: "tugas-startup",
+    featured: true,
+  },
+  {
+    id: "tugas-manajemen-risiko",
+    title: "Latihan Manajemen Risiko",
+    description: "Tugas individu Teknopreneur membahas pengertian, tahap-tahap, dan cara pengelolaan risiko bagi mahasiswa dan calon technopreneur.",
+    tags: ["Teknopreneur", "Manajemen Risiko", "Presentasi"],
+    imageUrl: "/images/tugas/risiko-cover.jpg",
+    imageFallback: "⚠️",
+    type: "artikel",
+    tugasSlug: "tugas-manajemen-risiko",
+    featured: true,
+  },
+  
 ]
 
 // ── TUGAS ──────────────────────────────────────────
 export const tugasList = [
   {
-    slug: "tugas-kelompok-teknopreneur",
-    judul: "Tugas Kelompok: Presentasi Technopreneurship",
-    mataKuliah: "Technopreneurship",
+    slug: "tugas-poster-spanduk",
+    judul: "Kumpulan Poster dan Spanduk",
+    mataKuliah: "Teknopreneur",
     tanggal: "2026",
-    tags: ["Technopreneurship", "Kelompok", "Presentasi"],
+    tags: ["Desain", "Poster", "Spanduk", "Canva"],
+    deskripsi: "Kumpulan hasil desain poster dan spanduk sebagai tugas mata kuliah, dibuat menggunakan Canva dengan tema yang beragam.",
+    thumbnail: "/images/tugas/poster-cover.jpg",
+    fileLampiran: [],
+    foto: [
+      "/images/tugas/poster-bengkel1.png",
+      "/images/tugas/poster-bengkel2.png",
+      "/images/tugas/poster-bengkel2.png",
+      "/images/tugas/spanduk1.jpeg",
+      "/images/tugas/spanduk2.jpeg",
+    ],
+    pptEmbedUrl: "",
+    konten: [
+      { tipe: "paragraf", isi: "Selain tugas berupa presentasi dan analisis usaha, saya juga mendapatkan tugas untuk membuat desain poster dan spanduk sebagai bagian dari mata kuliah Teknopreneur. Tugas ini melatih kemampuan visual communication yang merupakan salah satu skill penting bagi seorang technopreneur dalam memasarkan produk atau jasanya." },
+      { tipe: "heading", isi: "Tools yang Digunakan" },
+      { tipe: "paragraf", isi: "Semua desain dibuat menggunakan Canva, platform desain online yang sudah saya bahas juga di tugas Start Up sebelumnya. Canva sangat membantu karena menyediakan banyak template siap pakai yang bisa disesuaikan dengan kebutuhan, sehingga proses desain menjadi lebih cepat dan hasilnya tetap terlihat profesional." },
+      { tipe: "heading", isi: "Proses Pembuatan" },
+      { tipe: "paragraf", isi: "Dalam membuat poster dan spanduk, ada beberapa hal yang perlu diperhatikan yaitu pemilihan warna yang sesuai dengan tema, tipografi yang mudah dibaca, komposisi elemen yang seimbang, dan pesan utama yang jelas dan langsung dipahami oleh pembaca. Semua hal ini saya pelajari secara otodidak melalui eksplorasi fitur Canva dan referensi desain yang ada di internet." },
+      { tipe: "heading", isi: "Hasil Desain" },
+      { tipe: "paragraf", isi: "Kumpulan hasil desain poster dan spanduk dapat dilihat pada galeri dokumentasi di bawah. Setiap karya mencerminkan pemahaman saya tentang prinsip desain visual yang efektif dan komunikatif." }
+    ]
+  },
+
+  {
+    slug: "tugas-observasi-usaha",
+    judul: "Observasi Tempat Usaha (Bengkel Pramudinata Family)",
+    mataKuliah: "Teknopreneur",
+    tanggal: "2026",
+    tags: ["Teknopreneur", "Observasi", "Wawancara"],
+    deskripsi: "Tugas individu melakukan observasi dan wawancara ke Bengkel Pramudinata Family untuk memahami transformasi usaha konvensional menuju usaha berbasis teknologi.",
+    thumbnail: "/images/tugas/observasi-cover.jpeg",
+    fileLampiran: [],
+    foto: [
+      "/images/tugas/observasi-bengkel1.jpeg",
+      "/images/tugas/observasi-bengkel2.jpeg",
+      "/images/tugas/dokumentasi-kelompok.jpeg",
+    ],
+    pptEmbedUrl: "",
+    konten: [
+      { tipe: "paragraf", isi: "Pada tugas mata kuliah Teknopreneur ini, kelompok kami melakukan observasi langsung ke Bengkel Pramudinata Family yang berlokasi di Jl. Purwodadi Ujung. Bengkel ini sudah berjalan sekitar 2 tahun 4 bulan dan dikelola langsung oleh pemiliknya, Bapak Eka." },
+      { tipe: "heading", isi: "Profil Usaha" },
+      {
+        tipe: "poin",
+        judul: "Informasi umum Bengkel Pramudinata Family:",
+        items: [
+          "Jenis usaha: bengkel service motor",
+          "Jam operasional: setiap hari, pukul 08.00–22.00",
+          "Layanan utama: service, ganti oli, tune up",
+          "Pemilik: Bapak Eka (Keluarga Pramudinata)"
+        ]
+      },
+      { tipe: "heading", isi: "Latar Belakang Pemilihan Usaha" },
+      { tipe: "paragraf", isi: "Bengkel ini menarik untuk diobservasi karena tergolong usaha konvensional, tapi pemiliknya sudah mulai memanfaatkan teknologi seperti media sosial untuk promosi dan QRIS untuk pembayaran. Tujuan observasi ini adalah memahami bagaimana usaha konvensional bisa bertransformasi secara bertahap menjadi usaha yang lebih berbasis teknologi." },
+      { tipe: "heading", isi: "Tahapan Kegiatan Sebelum Kunjungan" },
+      {
+        tipe: "poin",
+        judul: "Langkah-langkah yang dilakukan sebelum wawancara:",
+        items: [
+          "Menentukan objek observasi bersama anggota kelompok",
+          "Survei awal lokasi untuk memahami kondisi fisik bengkel",
+          "Menyusun pertanyaan wawancara mencakup aspek internalization, paradigm alteration, spirit initiation, dan competition",
+          "Pembagian tugas antar anggota kelompok saat wawancara",
+          "Konfirmasi jadwal kunjungan dengan pemilik bengkel"
+        ]
+      },
+      { tipe: "heading", isi: "Hasil Wawancara: Internalization" },
+      { tipe: "paragraf", isi: "Pemilik membuka usaha karena ingin memiliki usaha sendiri. Kemampuan mekaniknya dipelajari secara otodidak dan dari pengalaman kerja. Bengkel dibuka setiap hari dari pagi sampai malam, yang menunjukkan konsistensi dan komitmen pemilik dalam menjalankan usahanya." },
+      { tipe: "heading", isi: "Hasil Wawancara: Paradigm Alteration" },
+      {
+        tipe: "poin",
+        judul: "Perubahan yang sudah dilakukan pemilik usaha:",
+        items: [
+          "Menggunakan media sosial untuk promosi",
+          "Menggunakan WhatsApp untuk komunikasi dengan pelanggan",
+          "Menerima pembayaran digital seperti QRIS"
+        ]
+      },
+      { tipe: "paragraf", isi: "Meskipun masih menggunakan sistem yang sederhana, penggunaan media sosial dan pembayaran digital merupakan langkah awal dalam proses transformasi menuju usaha yang lebih modern." },
+      { tipe: "heading", isi: "Hasil Wawancara: Spirit Initiation" },
+      {
+        tipe: "poin",
+        judul: "Faktor yang mendorong semangat pemilik usaha:",
+        items: [
+          "Keinginan memiliki penghasilan sendiri",
+          "Dukungan dari keluarga",
+          "Melihat peluang kebutuhan servis motor di lingkungan sekitar",
+          "Semangat terjaga karena kepuasan pelanggan"
+        ]
+      },
+      { tipe: "heading", isi: "Hasil Wawancara: Competition" },
+      {
+        tipe: "poin",
+        judul: "Strategi menghadapi persaingan usaha:",
+        items: [
+          "Memberikan pelayanan yang ramah",
+          "Menjaga kualitas servis",
+          "Jam operasional yang lebih panjang",
+          "Menggunakan media sosial untuk promosi"
+        ]
+      },
+      { tipe: "heading", isi: "Kesimpulan" },
+      {
+        tipe: "poin",
+        judul: "Indikator usaha yang cukup berkembang:",
+        items: [
+          "Aktif di 3 platform media sosial: WhatsApp, Instagram, dan TikTok",
+          "Menerima 3 metode pembayaran termasuk QRIS",
+          "Pemilik terbuka terhadap pengembangan sistem digital selama mudah digunakan"
+        ]
+      },
+      { tipe: "paragraf", isi: "Dari hasil wawancara dan observasi, Bengkel Pramudinata Family tergolong usaha yang cukup maju, terlihat dari motor yang selalu antri untuk ditangani dan pemilik yang terbuka terhadap perkembangan teknologi." }
+    ]
+  },
+
+  {
+    slug: "tugas-kelompok-teknopreneur",
+    judul: "Studi Kasus Teknopreneur: Bengkel Pramudinata Family",
+    mataKuliah: "Teknopreneur",
+    tanggal: "2026",
+    tags: ["Teknopreneur", "Kelompok", "Presentasi"],
     deskripsi: "Presentasi kelompok 5 membahas konsep kewirausahaan berbasis teknologi.",
     thumbnail: "/images/tugas/kelompok-cover.jpg",
     fileLampiran: [
@@ -151,18 +282,18 @@ export const tugasList = [
         nama: "Presentasi Kelompok 5.pdf",
         ukuran: "3.1 MB",
         tipe: "pdf",
-        url: "/files/tugas/TECHNOPRENEURSHIP_KEL_5.pdf"
+        url: "/files/tugas/Teknopreneur_KEL_5.pdf"
       }
     ],
     foto: [
       "/images/tugas/kelompok-poster.png",
       "/images/tugas/kelompok-foto1.jpeg"
     ],
-    pptEmbedUrl: "/files/tugas/TECHNOPRENEURSHIP_KEL_5.pdf",
+    pptEmbedUrl: "/files/tugas/Teknopreneur_KEL_5.pdf",
     konten: [
-      { tipe: "paragraf", isi: "Tugas kelompok ini merupakan presentasi bersama teman-teman kelompok 5 untuk mata kuliah Technopreneurship. Kami membahas konsep kewirausahaan berbasis teknologi dan bagaimana mahasiswa bisa mulai berpikir seperti seorang technopreneur — seseorang yang menggabungkan kemampuan teknologi dengan jiwa wirausaha." },
-      { tipe: "heading", isi: "Apa itu Technopreneurship?" },
-      { tipe: "paragraf", isi: "Technopreneurship adalah gabungan dari dua kata: technology dan entrepreneurship. Sederhananya, ini adalah kewirausahaan yang berbasis teknologi. Seorang technopreneur tidak hanya punya ide bisnis, tapi juga memanfaatkan teknologi sebagai alat utama untuk menjalankan dan mengembangkan bisnisnya." },
+      { tipe: "paragraf", isi: "Tugas kelompok ini merupakan presentasi bersama teman-teman kelompok 5 untuk mata kuliah Teknopreneur. Kami membahas konsep kewirausahaan berbasis teknologi dan bagaimana mahasiswa bisa mulai berpikir seperti seorang technopreneur — seseorang yang menggabungkan kemampuan teknologi dengan jiwa wirausaha." },
+      { tipe: "heading", isi: "Apa itu Teknopreneur?" },
+      { tipe: "paragraf", isi: "Teknopreneur adalah gabungan dari dua kata: technology dan entrepreneurship. Sederhananya, ini adalah kewirausahaan yang berbasis teknologi. Seorang technopreneur tidak hanya punya ide bisnis, tapi juga memanfaatkan teknologi sebagai alat utama untuk menjalankan dan mengembangkan bisnisnya." },
       { tipe: "paragraf", isi: "Contoh nyata technopreneur yang sukses adalah pendiri Gojek, Tokopedia, dan Canva. Mereka semua memulai dari masalah sehari-hari yang kemudian diselesaikan dengan solusi berbasis teknologi. Yang menarik, banyak dari mereka yang memulainya dari bangku kuliah, sama seperti kita sekarang." },
       { tipe: "heading", isi: "Kenapa Mahasiswa Perlu Punya Jiwa Technopreneur?" },
       { tipe: "paragraf", isi: "Dunia kerja saat ini sudah berubah sangat cepat. Tidak cukup hanya punya ijazah, mahasiswa juga perlu punya kemampuan untuk menciptakan sesuatu yang bernilai. Dengan jiwa technopreneur, kita tidak hanya menunggu lowongan kerja, tapi bisa menciptakan lapangan kerja sendiri." },
@@ -185,10 +316,10 @@ export const tugasList = [
 
   {
     slug: "tugas-kelompok-3p2p",
-    judul: "Tugas Kelompok: Analisis 3P+2P Bengkel Pramudinata Family",
-    mataKuliah: "Technopreneurship",
+    judul: "Teknopreneur Analisis 3P+2P Bengkel Pramudinatha Family",
+    mataKuliah: "Teknopreneur",
     tanggal: "2026",
-    tags: ["Technopreneurship", "Kelompok", "Analisis Usaha"],
+    tags: ["Teknopreneur", "Kelompok", "Analisis Usaha"],
     deskripsi: "Tugas kelompok menganalisis usaha Bengkel Pramudinata Family menggunakan framework 3P+2P sebagai pendekatan pemasaran berbasis teknologi.",
     thumbnail: "/images/tugas/kelompok-3p2p-cover.jpg",
     fileLampiran: [
@@ -292,10 +423,10 @@ export const tugasList = [
 
   {
     slug: "tugas-startup",
-    judul: "Tugas Start Up: Knowledge, Skill, Attitude dan Contoh Bisnis",
-    mataKuliah: "Technopreneurship",
+    judul: "Latihan Start Up: Knowledge, Skill, Attitude dan Contoh Bisnis",
+    mataKuliah: "Teknopreneur",
     tanggal: "2026",
-    tags: ["Technopreneurship", "Start Up", "Entrepreneurship"],
+    tags: ["Teknopreneur", "Start Up", "Entrepreneurship"],
     deskripsi: "Tugas individu membahas pentingnya knowledge, skill, dan attitude bagi seorang entrepreneur, serta contoh bisnis start up Canva.",
     thumbnail: "/images/tugas/startup-cover.jpg",
     fileLampiran: [
@@ -309,7 +440,7 @@ export const tugasList = [
     foto: [],
     pptEmbedUrl: "/files/tugas/TUGAS_START_UP_Kezia_.pdf",
     konten: [
-      { tipe: "paragraf", isi: "Pada tugas mata kuliah Technopreneurship ini, saya diminta untuk menjawab dua pertanyaan utama: pertama, mengapa seorang entrepreneur harus memiliki jiwa knowledge, skill, dan attitude. Kedua, memberikan contoh bisnis start up beserta cara kerjanya." },
+      { tipe: "paragraf", isi: "Pada tugas mata kuliah Teknopreneur ini, saya diminta untuk menjawab dua pertanyaan utama: pertama, mengapa seorang entrepreneur harus memiliki jiwa knowledge, skill, dan attitude. Kedua, memberikan contoh bisnis start up beserta cara kerjanya." },
       { tipe: "heading", isi: "1. Mengapa Entrepreneur Harus Punya Knowledge, Skill, dan Attitude?" },
       { tipe: "subheading", isi: "A. Knowledge (Pengetahuan)" },
       { tipe: "paragraf", isi: "Menurut saya, knowledge itu penting banget karena tanpa pengetahuan yang cukup kita bisa salah langkah. Saya pernah mengalaminya sendiri saat mengerjakan proyek kuliah karena kurang paham konsep dasarnya, hasilnya tidak maksimal dan harus mengulang dari awal. Dari pengalaman itu saya sadar, seorang entrepreneur harus punya knowledge yang cukup supaya setiap keputusan yang diambil tidak asal-asalan dan punya dasar yang kuat." },
@@ -338,10 +469,10 @@ export const tugasList = [
 
   {
     slug: "tugas-manajemen-risiko",
-    judul: "Tugas Manajemen Risiko dalam Technopreneurship",
-    mataKuliah: "Technopreneurship",
+    judul: "Latihan Manajemen Risiko dalam Teknopreneur",
+    mataKuliah: "Teknopreneur",
     tanggal: "2026",
-    tags: ["Technopreneurship", "Manajemen Risiko", "Presentasi"],
+    tags: ["Teknopreneur", "Manajemen Risiko", "Presentasi"],
     deskripsi: "Tugas individu membahas pengertian risiko, tahap-tahap manajemen risiko, cara pengelolaan risiko, dan pentingnya mempelajari manajemen risiko.",
     thumbnail: "/images/tugas/risiko-cover.jpg",
     fileLampiran: [
@@ -355,7 +486,7 @@ export const tugasList = [
     foto: [],
     pptEmbedUrl: "/files/tugas/Tugas_Teknopreneur_Kezia.pdf",
     konten: [
-      { tipe: "paragraf", isi: "Pada tugas mata kuliah Technopreneurship ini, saya diminta untuk membahas tentang manajemen risiko mulai dari pengertiannya, tahap-tahapnya, cara pengelolaannya, sampai mengapa hal ini penting untuk dipelajari." },
+      { tipe: "paragraf", isi: "Pada tugas mata kuliah Teknopreneur ini, saya diminta untuk membahas tentang manajemen risiko mulai dari pengertiannya, tahap-tahapnya, cara pengelolaannya, sampai mengapa hal ini penting untuk dipelajari." },
       { tipe: "heading", isi: "1. Apa yang Dimaksud dengan Risiko dan Manajemen Risiko?" },
       { tipe: "paragraf", isi: "Menurut saya, risiko itu adalah kemungkinan terjadinya hal yang tidak diinginkan dan bisa membuat hasil akhirnya tidak sesuai harapan. Contoh nyata yang pernah saya alami adalah saat mengerjakan proyek kuliah, tiba-tiba laptop error atau file hilang begitu saja." },
       { tipe: "paragraf", isi: "Sedangkan manajemen risiko adalah cara kita mengelola kemungkinan tersebut supaya dampaknya bisa dikurangi, misalnya dengan backup data secara rutin atau menyiapkan rencana cadangan sebelum masalah benar-benar terjadi." },
@@ -391,33 +522,7 @@ export const tugasList = [
     ]
   },
 
-  {
-    slug: "tugas-poster-spanduk",
-    judul: "Tugas Desain: Kumpulan Poster dan Spanduk",
-    mataKuliah: "Technopreneurship",
-    tanggal: "2026",
-    tags: ["Desain", "Poster", "Spanduk", "Canva"],
-    deskripsi: "Kumpulan hasil desain poster dan spanduk sebagai tugas mata kuliah, dibuat menggunakan Canva dengan tema yang beragam.",
-    thumbnail: "/images/tugas/poster-cover.jpg",
-    fileLampiran: [],
-    foto: [
-      "/images/tugas/poster-bengkel1.png",
-      "/images/tugas/poster-bengkel2.png",
-      "/images/tugas/poster-bengkel2.png",
-      "/images/tugas/spanduk1.jpeg",
-      "/images/tugas/spanduk2.jpeg",
-    ],
-    pptEmbedUrl: "",
-    konten: [
-      { tipe: "paragraf", isi: "Selain tugas berupa presentasi dan analisis usaha, saya juga mendapatkan tugas untuk membuat desain poster dan spanduk sebagai bagian dari mata kuliah Technopreneurship. Tugas ini melatih kemampuan visual communication yang merupakan salah satu skill penting bagi seorang technopreneur dalam memasarkan produk atau jasanya." },
-      { tipe: "heading", isi: "Tools yang Digunakan" },
-      { tipe: "paragraf", isi: "Semua desain dibuat menggunakan Canva, platform desain online yang sudah saya bahas juga di tugas Start Up sebelumnya. Canva sangat membantu karena menyediakan banyak template siap pakai yang bisa disesuaikan dengan kebutuhan, sehingga proses desain menjadi lebih cepat dan hasilnya tetap terlihat profesional." },
-      { tipe: "heading", isi: "Proses Pembuatan" },
-      { tipe: "paragraf", isi: "Dalam membuat poster dan spanduk, ada beberapa hal yang perlu diperhatikan yaitu pemilihan warna yang sesuai dengan tema, tipografi yang mudah dibaca, komposisi elemen yang seimbang, dan pesan utama yang jelas dan langsung dipahami oleh pembaca. Semua hal ini saya pelajari secara otodidak melalui eksplorasi fitur Canva dan referensi desain yang ada di internet." },
-      { tipe: "heading", isi: "Hasil Desain" },
-      { tipe: "paragraf", isi: "Kumpulan hasil desain poster dan spanduk dapat dilihat pada galeri dokumentasi di bawah. Setiap karya mencerminkan pemahaman saya tentang prinsip desain visual yang efektif dan komunikatif." }
-    ]
-  }
+  
 ]
 
 export const blogConfig = {
