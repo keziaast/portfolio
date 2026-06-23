@@ -163,7 +163,7 @@ export const tugasList = [
       "/images/tugas/poster-bengkel1.png",
       "/images/tugas/poster-bengkel2.png",
       "/images/tugas/poster-bengkel3.png",
-      "/images/tugas/spanduk-bengkel.jpeg",
+      "/images/tugas/spanduk-bengkel.jpg",
     ],
     pptEmbedUrl: "",
     konten: [
